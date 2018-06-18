@@ -14,6 +14,10 @@ $(document).ready(function(){
     test();
   }
   if (age < 18) {
-    window.location.href = 'https://www.imdb.com/'
+    window.location.href = 'https://www.imdb.com/';
   }
+  $("#cookies").show();
+  $("#cookie-button").on("click", function() {
+    $("#cookies").hide();
+  });
 });
