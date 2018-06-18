@@ -38,3 +38,33 @@ aside {
   color: white;
 
 }
+
+/* Jumbo */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.im1 {
+  background-image: url(../images/inception-2010-scifi.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.im2 {
+  background-image: url(../images/intouchables-2011-comedie.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.im3 {
+  background-image: url(../images/lesdeuxtours-2002-aventure.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
+.im4 {
+  background-image: url(../images/shutterisland-2010-thriller.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+}
