@@ -1,0 +1,40 @@
+aside {
+  position:fixed;
+  z-index: 10;
+  top: 200px;
+}
+
+.shift {
+ border-radius: 0 25px 25px 0;
+ width: 175px;
+ position: relative;
+ left : -125px;
+ transition: left 1.5s;
+ height: 50px;
+}
+
+.shift:hover {
+ left: 0;
+}
+
+.form {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.fab {
+  font-size: 2em;
+}
+
+.clear-right {
+  clear: right;
+}
+
+.center-height {
+  line-height: 50px;
+  font-size:1.3em;
+  color: white;
+
+}
