@@ -68,12 +68,50 @@ aside {
   background-position: center;
   height: 500px;
 }
-.film{
+/* .film{
   border-style: solid;black;
   height: 410px;
-}
-.a1, .a2, .a3, .a4, .a5, .a6, .a7{
+} */
+.film{
   border-style: solid;black;
+}
+.a1{
+  background-image: url(../images/batmanmovie-2017-comedie.jpg);
+  background-size: contain;
   height: 380px;
-  
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.a2{
+  background-image: url(../images/Survivestyle5-2004-comedie.jpg);
+  background-size: contain;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.a3{
+  background-image: url(../images/lesdeuxtours-2002-aventure.jpg);
+  background-size: contain;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.a4{
+  background-image: url(../images/seven-1995-thriller.jpg);
+  background-size: contain;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
+}
+.a5{
+  background-image: url(../images/starwarsempire-1980-scifi.jpg);
+  background-size: contain;
+  height: 380px;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px;
 }
