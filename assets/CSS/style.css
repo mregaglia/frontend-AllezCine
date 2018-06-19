@@ -39,6 +39,6 @@ aside {
   color: white;
 }
 
-#popup-login {
+#popup-login, #popup-register {
   display:none;
 }

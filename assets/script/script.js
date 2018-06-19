@@ -16,12 +16,33 @@ $(document).ready(function(){
   if (age < 18) {
     window.location.href = 'https://www.imdb.com/';
   }
+
+  let hidding = (select) => {
+    $(select).hide();
+  }
+
+  let showing = (select) => {
+    $(select).show();
+  }
+
   $("#cookie-button").on("click", function() {
-    $("#cookies").hide();
+    hidding("#cookies");
   });
-  
+
   $("#loginButton").click(function(){
-    console.log("test");
-    $("#popup-login").show();
+    showing("#popup-login");
+  });
+  $(".vanish").click(function(){
+    hidding("#popup-login");
+  });
+  $("#loginRegister").click(function(){
+    hidding("#popup-login");
+    showing("#popup-register");
+  });
+  $("#registerButton").click(function(){
+    showing("#popup-register");
+  });
+  $(".vanish2").click(function(){
+    hidding("#popup-register");
   });
 });
