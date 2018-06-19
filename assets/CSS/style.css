@@ -2,6 +2,7 @@ aside {
   position:fixed;
   z-index: 10;
   top: 200px;
+  visibility: hidden;
 }
 
 .shift {
@@ -36,7 +37,10 @@ aside {
   line-height: 50px;
   font-size:1.3em;
   color: white;
+}
 
+#popup-login, #popup-register {
+  display:none;
 }
 
 /* Jumbo */
