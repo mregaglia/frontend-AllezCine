@@ -21,42 +21,42 @@ $(document).ready(function(){
     $(select).hide();
   }
 
-  let showing = (select) => {
-    $(select).show();
+  let toggle = (select) => {
+    $(select).modal("toggle");
   }
 
   $("#cookie-button").on("click", function() {
     hidding("#cookies");
   });
 
-  $("#loginButton").click(function(){
-    showing("#popup-login");
-  });
   $(".vanish").click(function(){
-    hidding("#popup-login");
+    toggle("#modaltest");
   });
   $("#loginRegister").click(function(){
-    hidding("#popup-login");
-    showing("#popup-register");
+    toggle("#modaltest");
+    toggle("#modaltest2");
   });
   $("#registerButton").click(function(){
-    showing("#popup-register");
+    toggle("#modaltest2");
   });
   $(".vanish2").click(function(){
-    hidding("#popup-register");
+    toggle("#modaltest2");
   });
 
   var newButton = () =>{
     var homeButton = document.createElement("a");
     var newText = document.createTextNode("test");
     homeButton.appendChild(newText);
-    homeButton.setAttribute("class", "btn btn-primary text-center")
+    homeButton.setAttribute("class", "btn btn-primary")
     homeButton.setAttribute("href", "#top")
     var currentFooter = document.getElementById('footer');
     currentFooter.insertAdjacentElement("beforeend", homeButton);
-    console.log("test");
   };
 
   newButton();
+  $("#contactForm").submit(function(e){
+    e.preventDefault();
+    alert($("#email2").val() + '\n' + $("#message").val());
+  });
 
 });

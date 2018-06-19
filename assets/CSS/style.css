@@ -39,10 +39,6 @@ aside {
   color: white;
 }
 
-#popup-login, #popup-register {
-  display:none;
-}
-
 /* Jumbo */
 .carousel-inner img {
     width: 100%;
