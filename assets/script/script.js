@@ -25,9 +25,9 @@ $(document).ready(function(){
     $(select).modal("toggle");
   }
 
-  $("#cookie-button").on("click", function() {
-    hidding("#cookies");
-  });
+  // $("#cookie-button").on("click", function() {
+  //   hidding("#cookies");
+  // });
 
   $(".vanish").click(function(){
     toggle("#modaltest");
@@ -57,6 +57,12 @@ $(document).ready(function(){
   $("#contactForm").submit(function(e){
     e.preventDefault();
     alert($("#email2").val() + '\n' + $("#message").val());
+
+  $(".script1").on('hidden.bs.modal', function (e) {
+    $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
+
   });
 
 });
+
+// Modal

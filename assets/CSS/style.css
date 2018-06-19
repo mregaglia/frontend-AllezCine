@@ -68,50 +68,64 @@ aside {
   background-position: center;
   height: 500px;
 }
-/* .film{
-  border-style: solid;black;
-  height: 410px;
-} */
+
+/* FILM */
+.cadre{
+  border-style: solid;
+  border-color: lightgrey;
+  border-width: 1px;
+  border-radius: 3px;
+  height: auto;
+
+}
 .film{
-  border-style: solid;black;
+  /* border-style: solid;black; */
+  padding-top: 25px;
 }
 .a1{
   background-image: url(../images/batmanmovie-2017-comedie.jpg);
   background-size: contain;
-  height: 380px;
+  height: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
+
+
 }
 .a2{
   background-image: url(../images/Survivestyle5-2004-comedie.jpg);
   background-size: contain;
-  height: 380px;
+  height: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
+
+
 }
 .a3{
   background-image: url(../images/lesdeuxtours-2002-aventure.jpg);
   background-size: contain;
-  height: 380px;
+  height: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
+
 }
 .a4{
   background-image: url(../images/seven-1995-thriller.jpg);
   background-size: contain;
-  height: 380px;
+  height: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
 }
 .a5{
   background-image: url(../images/starwarsempire-1980-scifi.jpg);
   background-size: contain;
-  height: 380px;
+  height: auto;
   background-repeat: no-repeat;
-  background-position: center;
-  padding: 10px;
+}
+.titre {
+  padding-top: 140%;
+  text-align: center;
+}
+.annee {
+  font-size: 10px;
+  padding-top: -5px;
+}
+.genre {
+  font-size: 10px;
+  text-align: right;
 }
