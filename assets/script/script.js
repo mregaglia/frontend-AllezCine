@@ -31,6 +31,7 @@ $(document).ready(function(){
 
   $(".vanish").click(function(){
     toggle("#modaltest");
+    console.log("test");
   });
   $("#loginRegister").click(function(){
     toggle("#modaltest");
@@ -54,15 +55,14 @@ $(document).ready(function(){
   };
 
   newButton();
+
   $("#contactForm").submit(function(e){
     e.preventDefault();
-    alert($("#email2").val() + '\n' + $("#message").val());
+    alert($("#email2").val() + '\n' + $("#message").val())
+  });
 
   $(".script1").on('hidden.bs.modal', function (e) {
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
-
   });
 
 });
-
-// Modal
