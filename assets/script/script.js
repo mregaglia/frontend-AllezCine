@@ -45,4 +45,10 @@ $(document).ready(function(){
   $(".vanish2").click(function(){
     hidding("#popup-register");
   });
+  $(".script1").on('hidden.bs.modal', function (e) {
+    $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
+  });
+
 });
+
+// Modal
