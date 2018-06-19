@@ -61,4 +61,24 @@ $(document).ready(function(){
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
 
+  $("#animationButton").click(function(){
+    $("#animationMovies").show();
+    $("#actionMovies, #comedyMovies, #fictionMovies").hide();
+  });
+
+  $("#actionButton").click(function(){
+    $("#actionMovies").show();
+    $("#animationMovies, #comedyMovies, #fictionMovies").hide();
+  });
+
+  $("#comedyButton").click(function(){
+    $("#comedyMovies").show();
+    $("#actionMovies, #animationMovies, #fictionMovies").hide();
+  });
+
+  $("#fictionButton").click(function(){
+    $("#fictionMovies").show();
+    $("#actionMovies, #comedyMovies, #animationMovies").hide();
+  });
+
 });

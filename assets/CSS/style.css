@@ -129,3 +129,7 @@ aside {
   font-size: 10px;
   text-align: right;
 }
+
+#animationMovies, #actionMovies, #comedyMovies, #fictionMovies {
+  display: none;
+}
