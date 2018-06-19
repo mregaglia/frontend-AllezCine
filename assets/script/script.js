@@ -36,10 +36,6 @@ $(document).ready(function(){
     toggle("#modaltest");
     toggle("#modaltest2");
   });
-  $("#registerButton").click(function(){
-    toggle("#modaltest2");
-    console.log("test");
-  });
   $(".vanish2").click(function(){
     toggle("#modaltest2");
   });
