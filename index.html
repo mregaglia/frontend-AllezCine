@@ -33,9 +33,9 @@
 
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ml-md-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#movies"><span class="red">Movies</span></a>
+              <a class="nav-link mr-3" href="#movies"><span class="red">Movies</span></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle mr-2" href="#" id="navbardrop" data-toggle="dropdown">
@@ -52,10 +52,10 @@
               <a class="nav-link mr-2" href="#shop">Shop</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link mr-2" href="#contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
-          <form class="form-inline" action="/action_page.php">
+          <form class="form-inline ml-md-auto" action="/action_page.php">
             <div class="input-group">
               <input id="search1" class="form-control round-like" type="text" placeholder="Search">
               <div class="input-group-append">
@@ -95,9 +95,9 @@
 
 
     <!-- login -->
-    <div>
-      <button type="button" name="button" id="loginButton" data-toggle="modal" data-target="#modaltest">Login</button>
-      <button type="button" name="button" id="registerButton" data-toggle="modal" data-target="#modaltest2">Register</button>
+    <div class="redback">
+      <button type="button" name="button" id="loginButton" class="btn btn-black ml-1 mt-2 mb-2 rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest">Login</button>
+      <button type="button" name="button" id="registerButton" class="btn btn-black rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest2">Register</button>
     </div>
   </header>
 
@@ -134,20 +134,20 @@
   </aside>
   <!-- movies -->
   <section id="movies">
-    <div class="container cadre">
+    <div class="container cadre mt-2">
       <div class="row film">
-        <div class="col-md-2 col-sm-6 film offset-md-1">
+        <div class="col-md col-sm-6 film ml-md-3">
           <div class="a1" data-toggle="modal" data-target="#myModal1">
               <div class="titre">
                 <p>Batman</p>
               </div>
               <div class="row">
-                <div class="col-6">
+                <div class="col">
                   <div class="annee">
                     <p>2016</p>
                   </div>
                 </div>
-                <div class="col-6">
+                <div class="col">
                   <div class="genre">
                     <p>comedy</p>
                   </div>
@@ -155,7 +155,7 @@
               </div>
             </div>
         </div>
-        <div class="col-md-2 col-sm-6 film">
+        <div class="col-md col-sm-6 film">
           <div class="a2" data-toggle="modal" data-target="#myModal2">
             <div class="titre">
               <p>Survive</p>
@@ -174,7 +174,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 film">
+        <div class="col-md col-sm-6 film">
           <div class="a3" data-toggle="modal" data-target="#myModal3">
             <div class="titre">
               <p>Les Deux tours</p>
@@ -193,7 +193,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 film">
+        <div class="col-md col-sm-6 film">
           <div class="a4" data-toggle="modal" data-target="#myModal4">
             <div class="titre">
               <p>Seven</p>
@@ -212,7 +212,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-2 col-sm-6 film">
+        <div class="col-md col-sm-6 film mr-md-3">
           <div class="a5" data-toggle="modal" data-target="#myModal5">
             <div class="titre">
               <p>Star Wars</p>
@@ -380,8 +380,16 @@
       </div>
     </div>
   </section>
+
   <!-- featured movie -->
-  <section id="featuredMovies">
+  <div style="height:60px;"></div>
+
+  <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
+  <h3 style="line-height:40px;">FEATURED MOVIES</h3>
+
+  <div style="height:30px;"></div>
+
+  <section class="clearfix container" id="featuredMovies">
     <div class="btn-group" role="group">
       <button type="button" name="button" class="btn" id="actionButton">Action</button>
       <button type="button" name="button" class="btn" id="animationButton">Animation</button>
@@ -691,12 +699,25 @@
 
   </section>
   <!-- shop -->
+  <div style="height:60px;"></div>
+
+  <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
+  <h3 style="line-height:40px;">SHOP MOVIES</h3>
+
+  <div style="height:30px;"></div>
   <section id="shop">
 
   </section>
   <!-- contact -->
   <section id="contact">
-    <h3>Contactez-nous</h3>
+
+    <div style="height:60px;"></div>
+
+    <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
+    <h3 style="line-height:40px;">CONTACT US</h3>
+
+    <div style="height:30px;"></div>
+
     <form action id="contactForm">
       <div class="form-group">
         <label for="email2">Email address:</label>

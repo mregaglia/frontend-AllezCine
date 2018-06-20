@@ -4,13 +4,12 @@
 position: absolute;
 width: 100%;
 z-index: 20;
-border: 1px red solid;
 }
 
 .icon {
   font-weight: bold;
   padding: 0;
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 #collapsibleNavbar li:not(:first-child) a{
@@ -18,8 +17,23 @@ border: 1px red solid;
   color: white;
 }
 
+#collapsibleNavbar li a{
+  font-size: 0.7em;
+}
+
 .red {
   color: rgb(253, 67, 63);
+  font-weight: bold;
+}
+
+.redback {
+  background-color: rgb(253, 67, 63);
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  height: 24px;
 }
 
 .round-like {
@@ -27,6 +41,12 @@ border: 1px red solid;
   background-color: rgba(0, 0, 0, 0.5);
   border: none;
   color: #e0e0e0;
+  height: 25px;
+}
+
+.posright {
+  position: absolute;
+  right: 0px;
 }
 
 /* social network */
