@@ -81,4 +81,9 @@ $(document).ready(function(){
     $("#actionMovies, #comedyMovies, #animationMovies").hide();
   });
 
+ // Filtrer par genre
+
+
+
+
 });
