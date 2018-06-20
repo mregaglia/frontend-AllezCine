@@ -61,25 +61,19 @@ $(document).ready(function(){
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
 
-  $("#animationButton").click(function(){
-    $("#animationMovies").show();
-    $("#actionMovies, #comedyMovies, #fictionMovies").hide();
-  });
+  var i = "";
 
-  $("#actionButton").click(function(){
-    $("#actionMovies").show();
-    $("#animationMovies, #comedyMovies, #fictionMovies").hide();
-  });
+  let movies = () => {
+    $.getJSON("./assets/script/movies.json", function(data){
+      // console.log(data);
+      // console.log(typeof data);
+      for(i in data) {
+        console.log(data[i].url);
+      }
+    });
+  };
 
-  $("#comedyButton").click(function(){
-    $("#comedyMovies").show();
-    $("#actionMovies, #animationMovies, #fictionMovies").hide();
-  });
-
-  $("#fictionButton").click(function(){
-    $("#fictionMovies").show();
-    $("#actionMovies, #comedyMovies, #animationMovies").hide();
-  });
+  movies();
 
 
  // Filtrer par genre
