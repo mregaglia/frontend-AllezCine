@@ -1,16 +1,16 @@
 [
   {
-    "url" : "../images/action/0611719.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
+    "url" : "./assets/images/action/0611719.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Avengers",
     "date" : "2016",
     "genre" : "action"
   },
   {
-    "url" : "../images/action/3437390.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
+    "url" : "./assets/images/action/3437390.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Ready Player One",
     "date" : "2018",
     "genre" : "action"
-  }
+  },
   {
     "url" : "../images/action/18895516.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Indiana Jones",
@@ -106,6 +106,5 @@
     "name" : "Revenge",
     "date" : "2004",
     "genre" : "action"
-  },
-
+  }
 ]

@@ -61,24 +61,15 @@ $(document).ready(function(){
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
 
-  var i = "";
-
   let movies = () => {
     $.getJSON("./assets/script/movies.json", function(data){
-      // console.log(data);
-      // console.log(typeof data);
-      for(i in data) {
-        console.log(data[i].url);
+      for(i = 0; i <= 5; i++){
+        let img = data[i].url
+        $('<div class="col-md"><img src=' + img + '></div>').appendTo(".wrapperJson");
       }
     });
   };
 
   movies();
-
-
- // Filtrer par genre
-
-
-
 
 });
