@@ -1,5 +1,11 @@
 // Pop-Up age
 
+function link(){
+  console.log("test");
+  var $target = $('html,body');
+  $target.animate({scrollTop: 0}, 500);
+};
+
 $(document).ready(function(){
   // var result = false;
   // var age = "";
@@ -40,14 +46,30 @@ $(document).ready(function(){
     toggle("#modaltest2");
   });
 
-  var newButton = () =>{
-    var homeButton = document.createElement("a");
-    var newText = document.createTextNode("test");
+  // $('#link').on("click", function(e){
+  //   console.log("test");
+  //   var $target = $('html,body');
+  //   $target.animate({scrollTop: $target.height()}, 76);
+  // });
+
+
+  let newButton = () =>{
+    let homeButton = document.createElement("button");
+    let newText = document.createElement("i");
+    newText.setAttribute("class", "fas fa-arrow-circle-up")
     homeButton.appendChild(newText);
-    homeButton.setAttribute("class", "btn btn-primary")
-    homeButton.setAttribute("href", "#top")
-    var currentFooter = document.getElementById('footer');
+    // homeButton.setAttribute("id", "link");
+    let currentFooter = document.getElementById('footer');
+    homeButton.setAttribute("onclick", "link()");
     currentFooter.insertAdjacentElement("beforeend", homeButton);
+    $(window).on("scroll", function(){
+      sT = $(this).scrollTop();
+      if (sT > 536) {
+        homeButton.setAttribute("class", "btn btn-primary fixed-bottom")
+      } else {
+        homeButton.setAttribute("class", "btn btn-primary")
+      }
+    });
   };
 
   newButton();
@@ -81,14 +103,11 @@ $(document).ready(function(){
     $(".wrapperJson3").html("");
   }
 
-  function movies(genra, json) {
+  function movies(json) {
     clear();
     $.getJSON(json, function(data){
       for(i in data) {
-        console.log(data[i].genre);
-        if(data[i].genre == genra){
-          show(data);
-        }
+        show(data);
       }
     });
   }
@@ -111,11 +130,11 @@ $(document).ready(function(){
   all();
 
   $("#actionButton").click(function(){
-    movies("action", "./assets/script/action.json");
+    movies("./assets/script/action.json");
   });
 
   $("#animationButton").click(function(){
-    movies("animation", "./assets/script/animation.json");
+    movies("./assets/script/animation.json");
   });
 
   $("#allButton").click(function(){
