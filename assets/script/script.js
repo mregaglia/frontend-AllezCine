@@ -23,10 +23,6 @@ $(document).ready(function(){
   //   window.location.href = 'https://www.imdb.com/';
   // }
 
-  let hidding = (select) => {
-    $(select).hide();
-  }
-
   let toggle = (select) => {
     $(select).modal("toggle");
   }
@@ -86,7 +82,7 @@ $(document).ready(function(){
   function show(data) {
     let img = data[i].url;
     let y = data.indexOf(data[i]);
-    let entry = '<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
+    let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
     }
@@ -139,6 +135,17 @@ $(document).ready(function(){
 
   $("#allButton").click(function(){
     all();
+  });
+
+  $("#theshowmust").click(function(){
+    let hideshow = $(".hiddenRow").css("display");
+    $(".showmore, .showless").toggle(function(){
+      if(hideshow == "none") {
+        $('.hiddenRow').css("display", "flex");
+      } else {
+        $('.hiddenRow').css("display", "none");
+      }
+    });
   });
 
 });

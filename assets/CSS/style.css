@@ -28,9 +28,8 @@ z-index: 20;
 
 .redback {
   background-color: rgb(253, 67, 63);
-
-
 }
+
 .numero{
   padding-left: 30px;
   color: white;
@@ -203,9 +202,10 @@ aside {
 
 /*Featured movies*/
 
-.hiddenRow {
+.hiddenRow, .showless {
   display: none;
 }
+
 .btn-light {
   background-color: #DFDFE0;
   color: black;
