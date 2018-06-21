@@ -132,22 +132,26 @@ aside {
 .carousel-indicators li{
   background-color: white;
 }
+.carousel-inner{
+  background-color: black;
+}
 .im1, .im2, .im3, .im4 {
   background-size: cover;
   background-position: center;
   height: 500px;
+  filter: opacity(40%);
 }
 .im1 {
-  background-image: url(../images/inception-2010-scifi.jpg);
+  background-image: url(../images/blade-runner-2049jpg-bca81fa06499e1a2.jpg);
 }
 .im2 {
-  background-image: url(../images/intouchables-2011-comedie.jpg);
+  background-image: url(../images/ant-man-movie-poster.jpg);
 }
 .im3 {
-  background-image: url(../images/lesdeuxtours-2002-aventure.jpg);
+  background-image: url(../images/honest-movie-posters-7.jpg);
 }
 .im4 {
-  background-image: url(../images/shutterisland-2010-thriller.jpg);
+  background-image: url(../images/leonardo-dicaprio-film-posters-original.jpg);
 }
 
 /* FILM */
