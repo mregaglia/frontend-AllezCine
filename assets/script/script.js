@@ -67,7 +67,7 @@ $(document).ready(function(){
         if(data[i].genre == genra){
           let img = data[i].url;
           let y = data.indexOf(data[i]);
-          let entry = '<div class="col-lg-2 col-md-3 col-sm-4 col-12"><img src=' + img + '></div>'
+          let entry = '<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
           if(y > 11) {
             $(entry).appendTo($('.wrapperJson3'));
           }
@@ -85,6 +85,8 @@ $(document).ready(function(){
     movies("action");
   });
 
-  test
+  $("#animationButton").click(function(){
+    movies("animation");
+  });
 
 });
