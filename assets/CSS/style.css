@@ -28,12 +28,29 @@ z-index: 20;
 
 .redback {
   background-color: rgb(253, 67, 63);
+
+
+}
+.numero{
+  padding-left: 30px;
+  color: white;
+  font-size: 10px;
+  padding-right: 20px;
+  padding-top: 5px;
+
+}
+.fa-phone{
+  transform: rotateY(180deg);
+  font-size: 8px;
 }
 
 .btn-black {
   background-color: black;
   color: white;
   height: 24px;
+  font-size: 12px;
+  font-variant-caps: all-small-caps;
+
 }
 
 .round-like {
@@ -55,16 +72,16 @@ aside {
   position:fixed;
   z-index: 10;
   top: 200px;
-  visibility: hidden;
+  text-align: inherit;
 }
 
 .shift {
  border-radius: 0 25px 25px 0;
- width: 175px;
+ width: 115px;
  position: relative;
- left : -125px;
- transition: left 1.5s;
- height: 50px;
+ left : -85px;
+ transition: left 1.0s;
+ height: 35px;
 }
 
 .shift:hover {
@@ -72,14 +89,25 @@ aside {
 }
 
 .form {
-  height: 40px;
-  width: 40px;
+  height: 25px;
+  width: 25px;
   background-color: white;
-  border-radius: 20px;
 }
-
+.twitter{
+  background-color: #29A6F1;
+}
+.facebook{
+  background-color: #3E6092;
+}
+.dribble{
+  background-color: #EF4F8A;
+}
+.googlePlus {
+  background-color: #E4493C;
+}
 .fab {
-  font-size: 2em;
+  font-size: 11px;
+  padding-left: 4px;
 }
 
 .clear-right {
@@ -88,7 +116,7 @@ aside {
 
 .center-height {
   line-height: 50px;
-  font-size:1.3em;
+  font-size:12px;
   color: white;
 }
 
@@ -98,7 +126,12 @@ aside {
     width: 100%;
     height: 100%;
 }
-
+.carousel-indicators .active {
+  background-color: rgb(253, 67, 63);
+}
+.carousel-indicators li{
+  background-color: white;
+}
 .im1, .im2, .im3, .im4 {
   background-size: cover;
   background-position: center;
