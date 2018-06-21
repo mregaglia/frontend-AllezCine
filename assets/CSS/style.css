@@ -50,7 +50,6 @@ z-index: 20;
   height: 24px;
   font-size: 12px;
   font-variant-caps: all-small-caps;
-
 }
 
 .round-like {
@@ -84,7 +83,7 @@ aside {
  height: 35px;
 }
 
-.shift:hover {
+.shift:hover, .shift a:visited {
  left: 0;
 }
 
@@ -206,4 +205,17 @@ aside {
 
 .hiddenRow {
   display: none;
+}
+.btn-light {
+  background-color: #DFDFE0;
+  color: black;
+  height: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+.btn-light:hover, .btn-light:active, .btn-light:focus {
+  background-color: rgb(253, 67, 63);
+  color: white;
+  border: none;
 }
