@@ -50,7 +50,6 @@ z-index: 20;
   height: 24px;
   font-size: 12px;
   font-variant-caps: all-small-caps;
-
 }
 
 .round-like {
@@ -84,7 +83,7 @@ aside {
  height: 35px;
 }
 
-.shift:hover {
+.shift:hover, .shift a:visited {
  left: 0;
 }
 
@@ -132,22 +131,26 @@ aside {
 .carousel-indicators li{
   background-color: white;
 }
+.carousel-inner{
+  background-color: black;
+}
 .im1, .im2, .im3, .im4 {
   background-size: cover;
   background-position: center;
   height: 500px;
+  filter: opacity(40%);
 }
 .im1 {
-  background-image: url(../images/inception-2010-scifi.jpg);
+  background-image: url(../images/blade-runner-2049jpg-bca81fa06499e1a2.jpg);
 }
 .im2 {
-  background-image: url(../images/intouchables-2011-comedie.jpg);
+  background-image: url(../images/ant-man-movie-poster.jpg);
 }
 .im3 {
-  background-image: url(../images/lesdeuxtours-2002-aventure.jpg);
+  background-image: url(../images/honest-movie-posters-7.jpg);
 }
 .im4 {
-  background-image: url(../images/shutterisland-2010-thriller.jpg);
+  background-image: url(../images/leonardo-dicaprio-film-posters-original.jpg);
 }
 
 /* FILM */
@@ -202,4 +205,17 @@ aside {
 
 .hiddenRow {
   display: none;
+}
+.btn-light {
+  background-color: #DFDFE0;
+  color: black;
+  height: 28px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 12px;
+}
+.btn-light:hover, .btn-light:active, .btn-light:focus {
+  background-color: rgb(253, 67, 63);
+  color: white;
+  border: none;
 }
