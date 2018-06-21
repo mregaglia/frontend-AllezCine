@@ -61,15 +61,28 @@ $(document).ready(function(){
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
 
-  let movies = () => {
+  function movies(genra) {
     $.getJSON("./assets/script/movies.json", function(data){
-      for(i = 0; i <= 5; i++){
-        let img = data[i].url
-        $('<div class="col-md"><img src=' + img + '></div>').appendTo(".wrapperJson");
+      for(i in data) {
+        if(data[i].genre == genra){
+          let img = data[i].url;
+          let y = data.indexOf(data[i]);
+          let entry = '<div class="col-lg-2 col-md-3 col-sm-4 col-12"><img src=' + img + '></div>'
+          if(y > 11) {
+            $(entry).appendTo($('.wrapperJson3'));
+          }
+          else if(y > 11) {
+            $(entry).appendTo($('.wrapperJson2'));
+          } else {
+            $(entry).appendTo($('.wrapperJson'));
+          }
+        }
       }
     });
-  };
+  }
 
-  movies();
+  $("#actionButton").click(function(){
+    movies("action");
+  });
 
 });
