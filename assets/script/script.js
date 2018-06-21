@@ -61,32 +61,65 @@ $(document).ready(function(){
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
 
-  function movies(genra) {
-    $.getJSON("./assets/script/movies.json", function(data){
+  function show(data) {
+    let img = data[i].url;
+    let y = data.indexOf(data[i]);
+    let entry = '<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
+    if(y > 11) {
+      $(entry).appendTo($('.wrapperJson3'));
+    }
+    else if(y > 5) {
+      $(entry).appendTo($('.wrapperJson2'));
+    } else {
+      $(entry).appendTo($('.wrapperJson'));
+    }
+  }
+
+  function clear() {
+    $(".wrapperJson").html("");
+    $(".wrapperJson2").html("");
+    $(".wrapperJson3").html("");
+  }
+
+  function movies(genra, json) {
+    clear();
+    $.getJSON(json, function(data){
       for(i in data) {
+        console.log(data[i].genre);
         if(data[i].genre == genra){
-          let img = data[i].url;
-          let y = data.indexOf(data[i]);
-          let entry = '<div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
-          if(y > 11) {
-            $(entry).appendTo($('.wrapperJson3'));
-          }
-          else if(y > 11) {
-            $(entry).appendTo($('.wrapperJson2'));
-          } else {
-            $(entry).appendTo($('.wrapperJson'));
-          }
+          show(data);
         }
       }
     });
   }
 
+  function Shuffle(o) {
+    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+  };
+
+  function all() {
+    $.getJSON("./assets/script/movies.json", function(data){
+      let test = Shuffle(data);
+      clear();
+      for(i in data) {
+        show(data);
+      }
+    });
+  }
+
+  all();
+
   $("#actionButton").click(function(){
-    movies("action");
+    movies("action", "./assets/script/action.json");
   });
 
   $("#animationButton").click(function(){
-    movies("animation");
+    movies("animation", "./assets/script/animation.json");
+  });
+
+  $("#allButton").click(function(){
+    all();
   });
 
 });
