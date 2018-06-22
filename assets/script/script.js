@@ -126,18 +126,6 @@ $(document).ready(function(){
     });
   }
 
-  function carousel() {
-    $.getJSON("./assets/script/movies.json", function(data){
-      let test = Shuffle(data);
-      for(i in data) {
-        let name = data[i].name;
-        let img = data[i].url;
-        let entry = '<div class="carousel-item"><img class="d-block w-100" src=' + img + ' alt=' + name + '></div>'
-        $(entry).appendTo($('.carousel-inner'));
-      }
-    });
-  }
-  carousel();
   all();
 
   $("#actionButton").click(function(){
@@ -162,5 +150,24 @@ $(document).ready(function(){
       }
     });
   });
+
+  function shop(num1, num2) {
+    $.getJSON('./assets/script/movies.json', function(data){
+      for(i = num1; i <= num2; i++){
+        let img = data[i].url;
+        let title = data[i].name;
+        let year = data[i].date;
+        let price = "price";
+        let entry = '<div class="col-lg-3"><div class="card"><img class="card-img-top" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>'
+        if(i % 2 === 0){
+          $(entry).appendTo($('.wrapperShop1'));
+        } else {
+          $(entry).appendTo($('.wrapperShop2'));
+        }
+      }
+    });
+  }
+
+  shop(0, 7);
 
 });
