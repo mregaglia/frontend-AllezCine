@@ -6,16 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
-  <!-- jQuery library -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!-- Popper JS -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-  <!-- Latest compiled JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/CSS/style.css">
-  <script src="./assets/script/script.js"></script>
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
   <title>Document</title>
 </head>
 <body>
@@ -430,12 +424,11 @@
 
   <div style="height:30px;"></div>
   <section id="shop">
-    <div class="row">
-
-    </div>
+    <button id="shopBack" type="button" name="button" disabled>back</button>
+    <button id="shopForward" type="button" name="button">forward</button>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg">
+        <div class="col">
           <div class="row wrapperShop1">
           </div>
           <div class="row wrapperShop2">
@@ -443,37 +436,37 @@
         </div>
         <div class="col-lg-5 border border-danger bg-dark">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-item-responsive" src="https://www.youtube.com/embed/J_It_SvRx3g?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+            <iframe id="embed1" class="embed-item-responsive" src="https://www.youtube.com/embed/J_It_SvRx3g?rel=0&amp;showinfo=0" allowfullscreen></iframe>
           </div>
-          <div class="row mt-3 mb-3 ml-1">
+          <div id="embed2" class="row mt-3 mb-3 ml-1 red">
             title
           </div>
           <div class="row">
             <div class="col-3 border border-primary">
-              <div class="row">
+              <div class="row red">
                 storyline
               </div>
-              <div class="row">
+              <div class="row red">
                 Release on
               </div>
-              <div class="row">
+              <div class="row red">
                 Genre
               </div>
-              <div class="row">
+              <div class="row red">
                 Price
               </div>
             </div>
             <div class="col-9 border border-danger">
-              <div class="row">
+              <div id="embed3" class="row white">
                 storyline
               </div>
-              <div class="row">
+              <div id="embed4" class="row white">
                 Release on
               </div>
-              <div class="row">
+              <div id="embed5" class="row white">
                 Genre
               </div>
-              <div class="row">
+              <div id="embed6" class="row white">
                 Price
               </div>
             </div>
@@ -509,10 +502,6 @@
   </section>
 
   <footer id="footer">
-    <div id="cookies" class="bg-primary fixed-bottom text-center">
-      <span>This website uses cookies to ensure you get the best experience on our website.</span>
-      <button type="button" name="button" id="cookie-button">Ok</button>
-    </div>
     <div class="modal" id="modaltest">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -573,5 +562,26 @@
       </div>
     </div>
   </footer>
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="./assets/script/script.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script>
+  window.addEventListener("load", function(){
+  window.cookieconsent.initialise({
+    "palette": {
+      "popup": {
+        "background": "#000"
+      },
+      "button": {
+        "background": "#ff0000"
+      }
+    }
+  })});
+  </script>
 </body>
 </html>

@@ -236,5 +236,8 @@ aside {
    flex-wrap: wrap;
    right: 10;
    /* position: absolute; right: 10; */
+ }
 
+ .white {
+   color: white;
  }

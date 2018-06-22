@@ -27,10 +27,6 @@ $(document).ready(function(){
     $(select).modal("toggle");
   }
 
-  $("#cookie-button").on("click", function() {
-    $("#cookies").hide();
-  });
-
   $(".vanish").click(function(){
     toggle("#modaltest");
   });
@@ -90,9 +86,9 @@ $(document).ready(function(){
   }
 
   function clear() {
-    $(".wrapperJson").html("");
-    $(".wrapperJson2").html("");
-    $(".wrapperJson3").html("");
+    $(".wrapperJson").empty();
+    $(".wrapperJson2").empty();
+    $(".wrapperJson3").empty();
   }
 
   function movies(json) {
@@ -110,6 +106,7 @@ $(document).ready(function(){
   };
 
   function all() {
+    console.log("testall");
     $.getJSON("./assets/script/movies.json", function(data){
       let test = Shuffle(data);
       clear();
@@ -150,8 +147,9 @@ $(document).ready(function(){
         let img = data[i].url;
         let title = data[i].name;
         let year = data[i].date;
-        let price = "price";
-        let entry = '<div class="col-lg-3"><div class="card"><img class="card-img-top" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
+        let price = data[i].price;
+        let id = 'movieID' + i
+        let entry = '<div class="col-12 col-md-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
         if(i % 2 === 0){
           $(entry).appendTo($('.wrapperShop1'));
         } else {
@@ -161,4 +159,52 @@ $(document).ready(function(){
     });
   }
   shop(0, 7);
+  let x = 0;
+  let y = 7;
+  $('#shopForward').click(function(){
+    $(".wrapperShop1").empty();
+    $(".wrapperShop2").empty();
+    x += 8;
+    y += 8;
+    if(x<32){
+      shop(x, y);
+      $('#shopBack').removeAttr("disabled");
+    } else {
+      shop(32, 39);
+      $(this).attr("disabled", "true");
+    }
+    console.log(x, y);
+  });
+
+  $('#shopBack').click(function(){
+    $(".wrapperShop1").empty();
+    $(".wrapperShop2").empty();
+    x -= 8;
+    y -= 8;
+    if(x <= 0) {
+      $(this).attr("disabled", "true");
+      shop(0, 7);
+    } else {
+      shop(x, y);
+      $('#shopForward').removeAttr("disabled");
+    }
+    console.log(x, y);
+  });
+
+  $(document).on("click", ".imgclick", function(){
+    let source = $(this).attr("id");
+    console.log(source);
+    let index2 = Number(source.slice(7));
+    console.log(typeof index2);
+    $.getJSON('./assets/script/movies.json', function(data){
+      let trailer = data[index2].trailer;
+      $('#embed1').attr('src', trailer);
+      $('#embed2').html(data[index2].name);
+      $('#embed3').html(data[index2].storyline);
+      $('#embed4').html(data[index2].date);
+      $('#embed5').html(data[index2].genre);
+      $('#embed6').html(data[index2].price);
+    });
+  });
+
 });
