@@ -218,4 +218,5 @@ aside {
   background-color: rgb(253, 67, 63);
   color: white;
   border: none;
+  outline: none;
 }
