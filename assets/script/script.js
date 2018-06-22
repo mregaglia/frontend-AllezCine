@@ -85,7 +85,7 @@ $(document).ready(function(){
     let title = data[i].name;
     let y = data.indexOf(data[i]);
     // let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
-    let entry = '<div class="card"><div class="card-body"><img src=' + img + '></div><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
+    let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + '><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
     }
