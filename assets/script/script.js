@@ -27,9 +27,9 @@ $(document).ready(function(){
     $(select).modal("toggle");
   }
 
-  // $("#cookie-button").on("click", function() {
-  //   hidding("#cookies");
-  // });
+  $("#cookie-button").on("click", function() {
+    $("#cookies").hide();
+  });
 
   $(".vanish").click(function(){
     toggle("#modaltest");
@@ -81,8 +81,11 @@ $(document).ready(function(){
 
   function show(data) {
     let img = data[i].url;
+    let year = data[i].date;
+    let title = data[i].name;
     let y = data.indexOf(data[i]);
-    let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
+    // let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
+    let entry = '<div class="card"><div class="card-body"><img src=' + img + '></div><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
     }
