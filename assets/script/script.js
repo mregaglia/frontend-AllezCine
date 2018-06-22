@@ -42,13 +42,6 @@ $(document).ready(function(){
     toggle("#modaltest2");
   });
 
-  // $('#link').on("click", function(e){
-  //   console.log("test");
-  //   var $target = $('html,body');
-  //   $target.animate({scrollTop: $target.height()}, 76);
-  // });
-
-
   let newButton = () =>{
     let homeButton = document.createElement("button");
     let newText = document.createElement("i");
@@ -158,7 +151,7 @@ $(document).ready(function(){
         let title = data[i].name;
         let year = data[i].date;
         let price = "price";
-        let entry = '<div class="col-lg-3"><div class="card"><img class="card-img-top" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>'
+        let entry = '<div class="col-lg-3"><div class="card"><img class="card-img-top" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
         if(i % 2 === 0){
           $(entry).appendTo($('.wrapperShop1'));
         } else {
@@ -167,7 +160,5 @@ $(document).ready(function(){
       }
     });
   }
-
   shop(0, 7);
-
 });
