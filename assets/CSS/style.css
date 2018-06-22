@@ -220,3 +220,21 @@ aside {
   border: none;
   outline: none;
 }
+ /* UP button */
+
+ .upbutton {
+   color: rgb(253, 67, 63);
+   font-size: 38px;
+
+ }
+ .upstyle{
+ flex-wrap: wrap;
+ right: 10;
+
+ }
+ .btn-link {
+   flex-wrap: wrap;
+   right: 10;
+   /* position: absolute; right: 10; */
+
+ }

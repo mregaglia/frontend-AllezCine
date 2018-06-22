@@ -52,7 +52,7 @@ $(document).ready(function(){
   let newButton = () =>{
     let homeButton = document.createElement("button");
     let newText = document.createElement("i");
-    newText.setAttribute("class", "fas fa-arrow-circle-up")
+    newText.setAttribute("class", "far fa-arrow-alt-circle-up upbutton")
     homeButton.appendChild(newText);
     // homeButton.setAttribute("id", "link");
     let currentFooter = document.getElementById('footer');
@@ -61,9 +61,9 @@ $(document).ready(function(){
     $(window).on("scroll", function(){
       sT = $(this).scrollTop();
       if (sT > 536) {
-        homeButton.setAttribute("class", "btn btn-primary fixed-bottom")
+        homeButton.setAttribute("class", "btn btn-link fixed-bottom rounded-circle upstyle ")
       } else {
-        homeButton.setAttribute("class", "btn btn-primary")
+        homeButton.setAttribute("class", "btn btn-link rounded-circle upstyle")
       }
     });
   };
