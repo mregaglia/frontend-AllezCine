@@ -85,7 +85,7 @@ $(document).ready(function(){
     let title = data[i].name;
     let y = data.indexOf(data[i]);
     // let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
-    let entry = '<div class="card"><div class="card-body"><img src=' + img + '></div><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
+    let entry = '<div class="card"><img class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12" src=' + img + '></div><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
     }
@@ -126,6 +126,18 @@ $(document).ready(function(){
     });
   }
 
+  function carousel() {
+    $.getJSON("./assets/script/movies.json", function(data){
+      let test = Shuffle(data);
+      for(i in data) {
+        let name = data[i].name;
+        let img = data[i].url;
+        let entry = '<div class="carousel-item"><img class="d-block w-100" src=' + img + ' alt=' + name + '></div>'
+        $(entry).appendTo($('.carousel-inner'));
+      }
+    });
+  }
+  carousel();
   all();
 
   $("#actionButton").click(function(){
