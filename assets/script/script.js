@@ -1,27 +1,28 @@
 // Pop-Up age
 
-function link(){
-  console.log("test");
+function link(position){
   var $target = $('html,body');
-  $target.animate({scrollTop: 0}, 500);
+  $target.animate({scrollTop: position}, 500);
 };
 
 $(document).ready(function(){
   // var result = false;
   // var age = "";
-  // function test() {
-  //   var name = prompt("Indiquez votre âge : ");
-  //   var entree = parseInt (name, 10);
+  // function testnumber() {
+  //   let name = prompt("Indiquez votre âge : ");
+  //   let entree = parseInt(name, 10);
   //   result = Number.isInteger(entree)
   //   age = entree;
   // }
   //
   // while(result == false) {
-  //   test();
+  //   testnumber();
   // }
   // if (age < 18) {
   //   window.location.href = 'https://www.imdb.com/';
   // }
+
+  //modal login and register code
 
   let toggle = (select) => {
     $(select).modal("toggle");
@@ -38,6 +39,8 @@ $(document).ready(function(){
     toggle("#modaltest2");
   });
 
+  //button to home code
+
   let newButton = () =>{
     let homeButton = document.createElement("button");
     let newText = document.createElement("i");
@@ -45,7 +48,7 @@ $(document).ready(function(){
     homeButton.appendChild(newText);
     // homeButton.setAttribute("id", "link");
     let currentFooter = document.getElementById('footer');
-    homeButton.setAttribute("onclick", "link()");
+    homeButton.setAttribute("onclick", "link(0)");
     currentFooter.insertAdjacentElement("beforeend", homeButton);
     $(window).on("scroll", function(){
       sT = $(this).scrollTop();
@@ -59,21 +62,31 @@ $(document).ready(function(){
 
   newButton();
 
+  //alert from contact form code
+
   $("#contactForm").submit(function(e){
     e.preventDefault();
     alert($("#email2").val() + '\n' + $("#message").val())
   });
 
+  //stop youtube video from playing in hidden modal
+
   $(".script1").on('hidden.bs.modal', function (e) {
     $(".script1 iframe").attr("src", $(".script1 iframe").attr("src"));
   });
+
+  //randomize Json function
+
+  function Shuffle(o) {
+    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
+    return o;
+  };
 
   function show(data) {
     let img = data[i].url;
     let year = data[i].date;
     let title = data[i].name;
     let y = data.indexOf(data[i]);
-    // let entry = '<div class="col-xl-2 col-md-4 col-sm-6 col-12"><img src=' + img + '></div>'
     let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + '><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
@@ -100,16 +113,10 @@ $(document).ready(function(){
     });
   }
 
-  function Shuffle(o) {
-    for(var j, x, i = o.length; i; j = parseInt(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
-    return o;
-  };
-
   function all() {
-    console.log("testall");
+    clear();
     $.getJSON("./assets/script/movies.json", function(data){
       let test = Shuffle(data);
-      clear();
       for(i in data) {
         show(data);
       }
@@ -130,16 +137,24 @@ $(document).ready(function(){
     all();
   });
 
+  // show more or less movies on featured section
+
+  var position2 = 0;
+
   $("#theshowmust").click(function(){
     let hideshow = $(".hiddenRow").css("display");
     $(".showmore, .showless").toggle(function(){
       if(hideshow == "none") {
         $('.hiddenRow').css("display", "flex");
+        position2 = $(window).scrollTop();
       } else {
         $('.hiddenRow').css("display", "none");
+        link(position2);
       }
     });
   });
+
+  //show movies in shop section
 
   function shop(num1, num2) {
     $.getJSON('./assets/script/movies.json', function(data){
@@ -158,6 +173,9 @@ $(document).ready(function(){
       }
     });
   }
+
+  //show more or less movies on shop section
+
   shop(0, 7);
   let x = 0;
   let y = 7;
@@ -173,7 +191,6 @@ $(document).ready(function(){
       shop(32, 39);
       $(this).attr("disabled", "true");
     }
-    console.log(x, y);
   });
 
   $('#shopBack').click(function(){
@@ -188,14 +205,13 @@ $(document).ready(function(){
       shop(x, y);
       $('#shopForward').removeAttr("disabled");
     }
-    console.log(x, y);
   });
+
+  //get trailer for card in shop section
 
   $(document).on("click", ".imgclick", function(){
     let source = $(this).attr("id");
-    console.log(source);
     let index2 = Number(source.slice(7));
-    console.log(typeof index2);
     $.getJSON('./assets/script/movies.json', function(data){
       let trailer = data[index2].trailer;
       $('#embed1').attr('src', trailer);
