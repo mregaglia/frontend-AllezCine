@@ -248,7 +248,7 @@ aside {
 .movies1{
   padding-bottom: 20px;
 }
-#theshowmust, .trailerbutt{
+#theshowmust, .b1, .b2, .b3, .b4{
   font-variant-caps: all-small-caps;
   background-color: rgb(253, 67, 63);
   color: white;
