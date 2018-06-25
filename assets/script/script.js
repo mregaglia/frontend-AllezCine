@@ -96,10 +96,9 @@ $(document).ready(function(){
         let title = data[i].name;
         let genra = data[i].genre;
         let y = i + 1;
-        console.log(title);
-        $("#jumbotitre" + i).html(title);
-        $("jumboannee" + i).html(year);
-        $("jumbogenre" + i).html(genra);
+        $("#jumbotitre" + y).html('<p>' + title + '</p>');
+        $("#jumboannee" + y).html('<p>' + year + '</p>');
+        $("#jumbogenre" + y).html('<p>' + genra + '</p>');
         $(".a" + y).css("background-image", "url(" + img + ")");
       }
     });
@@ -108,8 +107,8 @@ $(document).ready(function(){
   jumbo();
 
   $(".a1, .a2, .a3, .a4, .a5").click(function(){
-    let image = $(this).css("background-image");
-    let index2 = image.slice(4, -1);
+    let source = $(this).attr("class");
+    let index2 = Number(source.slice(2));
     console.log(index2);
   });
 

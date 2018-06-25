@@ -185,6 +185,7 @@ aside {
   padding-top: 145%;
   text-align: center;
   font-size: 13px;
+  line-height: 13px;
 }
 
 .a1, .a2, .a3, .a4, .a5 {
@@ -192,7 +193,6 @@ aside {
   height: auto;
   background-repeat: no-repeat;
   line-height: 4px;
-
 }
 
 .a1{
@@ -213,7 +213,6 @@ aside {
 
 .annee {
   font-size: 10px;
-  padding-top: -5px;
 }
 .genre {
   font-size: 10px;
