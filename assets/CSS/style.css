@@ -185,6 +185,7 @@ aside {
   padding-top: 145%;
   text-align: center;
   font-size: 13px;
+
 }
 
 .a1, .a2, .a3, .a4, .a5 {
@@ -195,7 +196,7 @@ aside {
 
 }
 
-.a1{
+/* .a1{
   background-image: url(../images/batmanmovie-2017-comedie.jpg);
 }
 .a2{
@@ -209,7 +210,7 @@ aside {
 }
 .a5{
   background-image: url(../images/starwarsempire-1980-scifi.jpg);
-}
+} */
 
 .annee {
   font-size: 10px;
@@ -218,6 +219,7 @@ aside {
 .genre {
   font-size: 10px;
   text-align: right;
+
 }
 
 /*Featured movies*/
@@ -272,6 +274,15 @@ aside {
 .prix {
   text-align: right;
   color: red;
+}
+#shopBack, #shopForward{
+  background-color: black;
+  color: grey;
+}
+.arrowlr{
+  text-align: right;
+  padding: 0;
+  padding-bottom: 4px;
 }
  /* UP button */
 
