@@ -100,7 +100,7 @@ $(document).ready(function(){
         $("#jumbogenre" + y).html('<p>' + genra + '</p>');
         $(".a" + y).css("background-image", "url(" + img + ")");
       }
-      $(".a1, .a2, .a3, .a4, .a5").click(function(){
+      $(".a1, .a2, .a3, .a4, .a5, .b1, .b2, .b3, .b4").click(function(){
         let index = Number($(this).attr("class").slice(1));
         let index2 = index -1
         let trailer = data[index2].trailer;

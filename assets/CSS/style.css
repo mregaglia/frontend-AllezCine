@@ -135,7 +135,7 @@ aside {
 
 .text-pos {
   top: 150px;
-  z-index: 3400;
+  z-index: 500;
   width: 100%;
   height: auto;
   color: white;
@@ -248,7 +248,7 @@ aside {
 .movies1{
   padding-bottom: 20px;
 }
-#theshowmust{
+#theshowmust, .trailerbutt{
   font-variant-caps: all-small-caps;
   background-color: rgb(253, 67, 63);
   color: white;
