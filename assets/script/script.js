@@ -87,7 +87,7 @@ $(document).ready(function(){
     let year = data[i].date;
     let title = data[i].name;
     let y = data.indexOf(data[i]);
-    let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + '><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
+    let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + '><div class="card-footer"><div class="text-center txt1">' + title + '</div><br><div class=txt1>' + year + '</div></div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
     }
@@ -164,7 +164,7 @@ $(document).ready(function(){
         let year = data[i].date;
         let price = data[i].price;
         let id = 'movieID' + i
-        let entry = '<div class="col-12 col-md-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
+        let entry = '<div class="col-12 col-md-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1">' + title + '</div><br><div class="row"><div class="col txt1">' + year + '</div><div class="col txt1 prix">' + price + '</div></div></div></div></div>';
         if(i % 2 === 0){
           $(entry).appendTo($('.wrapperShop1'));
         } else {
