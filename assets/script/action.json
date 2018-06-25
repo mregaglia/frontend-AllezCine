@@ -3,31 +3,41 @@
     "url" : "./assets/images/action/0611719.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Avengers",
     "date" : "2016",
-    "genre" : "action"
+    "genre" : "action",
+    "real" : "Joe Russo, Anthony Russo",
+    "actor" : "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo"
   },
   {
     "url" : "./assets/images/action/3437390.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Ready Player One",
     "date" : "2018",
-    "genre" : "action"
+    "genre" : "action",
+    "real" : "Steven Spielberg",
+    "actor" : "Tye Sheridan, Olivia Cooke, Ben Mendelsohn"
   },
   {
     "url" : "./assets/images/action/18895516.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Indiana Jones",
     "date" : "1998",
-    "genre" : "action"
+    "genre" : "action",
+    "real" : "Steven Spielberg",
+    "actor" : "Harrison Ford, Sean Connery, Denholm Elliott"
   },
   {
     "url" : "./assets/images/action/18949761.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
     "name" : "Batman",
     "date" : "2015",
-    "genre" : "action"
+    "genre" : "action",
+    "real" : "Christopher Nolan",
+    "actor" : "Christian Bale, Heath Ledger, Aaron Eckhart"
   },
   {
     "url" : "./assets/images/action/19794371.jpg-c_215_290_x-o_club300a.png_SE_0-f_jpg-q_x-xxyxx.jpg",
     "name" : "Warrior",
     "date" : "2008",
-    "genre" : "action"
+    "genre" : "action",
+    "real" : "Gavin O'Connor",
+    "actor" : "Joel Edgerton, Tom Hardy, Jennifer Morrison"    
   },
   {
     "url" : "./assets/images/action/20158098.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",

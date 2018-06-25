@@ -6,7 +6,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
     "storyline" : "Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l’univers.",
-    "price" : "18 Euro"
+    "price" : "18 Euro",
+    "real" : "Joe Russo, Anthony Russo",
+    "actor" : "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo"
   },
   {
     "url" : "./assets/images/action/3437390.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -15,7 +17,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/cSp1dM2Vj48",
     "storyline" : "2045. Le monde est au bord du chaos. Les êtres humains se réfugient dans l'OASIS, univers virtuel mis au point par le brillant et excentrique James Halliday.",
-    "price" : "18 Euro"
+    "price" : "18 Euro",
+    "real" : "Steven Spielberg",
+    "actor" : "Tye Sheridan, Olivia Cooke, Ben Mendelsohn"
   },
   {
     "url" : "./assets/images/action/18895516.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -24,7 +28,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/E30XKoBJOlY",
     "storyline" : "L'archéologue aventurier Indiana Jones se retrouve aux prises avec un maléfique milliardaire. Aux côtés de la cupide Elsa et de son père, il part à la recherche du Graal.",
-    "price" : "18 Euro"
+    "price" : "18 Euro",
+    "real" : "Steven Spielberg",
+    "actor" : "Harrison Ford, Sean Connery, Denholm Elliott"
   },
   {
     "url" : "./assets/images/action/18949761.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -33,7 +39,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/EXeTwQWrcwY",
     "storyline" : "Dans ce nouveau volet, Batman augmente les mises dans sa guerre contre le crime. Avec l'appui du lieutenant de police Jim Gordon et du procureur de Gotham, Harvey Dent, Batman vise à éradiquer le crime organisé qui pullule dans la ville.",
-    "price" : "18 Euro"
+    "price" : "18 Euro",
+    "real" : "Christopher Nolan",
+    "actor" : "Christian Bale, Heath Ledger, Aaron Eckhart"
   },
   {
     "url" : "./assets/images/action/19794371.jpg-c_215_290_x-o_club300a.png_SE_0-f_jpg-q_x-xxyxx.jpg",
@@ -42,7 +50,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/I5kzcwcQA1Q",
     "storyline" : "Ancien Marine brisé, Tommy Conlon rentre au pays et demande à son père de le préparer pour un tournoi d’arts martiaux mixtes qui lui permettrait de gagner une fortune. Personne ne sait ce qu’il espère faire de cet argent.",
-    "price" : "18 Euro"
+    "price" : "18 Euro",
+    "real" : "Gavin O'Connor",
+    "actor" : "Joel Edgerton, Tom Hardy, Jennifer Morrison" 
   },
   {
     "url" : "./assets/images/action/20158098.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
