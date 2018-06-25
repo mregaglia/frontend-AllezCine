@@ -6,8 +6,7 @@ width: 100%;
 z-index: 20;
 }
 
-.icon {
-  font-weight: bold;
+.icon, .big {
   padding: 0;
   font-size: 2.5em;
 }
@@ -116,8 +115,6 @@ aside {
 }
 .twi:focus, .fac:focus, .dri:focus, .goo:focus {
   text-decoration: none;
-
-
 }
 .clear-right {
   clear: right;
@@ -130,6 +127,14 @@ aside {
 }
 
 /* Jumbo */
+
+.text-pos {
+  top: 150px;
+  z-index: 3400;
+  width: 100%;
+  height: auto;
+  color: white;
+}
 
 .carousel-inner img {
     width: 100%;
@@ -237,15 +242,10 @@ aside {
  .upbutton {
    color: rgb(253, 67, 63);
    font-size: 38px;
-
  }
+
  .upstyle{
-
-
- }
- .btn-link {
-
-   /* position: absolute; right: 10; */
+  left: auto;
  }
 
  .white {

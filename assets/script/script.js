@@ -1,9 +1,13 @@
-// Pop-Up age
+// animated scroll
 
-function link(position){
-  var $target = $('html,body');
-  $target.animate({scrollTop: position}, 500);
-};
+$(document).on('click', 'a[href^="#"]', function (event) {
+    event.preventDefault();
+    $('html, body').animate({
+        scrollTop: $($.attr(this, 'href')).offset().top
+    }, 500);
+});
+
+// Pop-Up age
 
 $(document).ready(function(){
   // var result = false;
@@ -42,18 +46,19 @@ $(document).ready(function(){
   //button to home code
 
   let newButton = () =>{
-    let homeButton = document.createElement("button");
+    let homeButton = document.createElement("a");
     let newText = document.createElement("i");
     newText.setAttribute("class", "far fa-arrow-alt-circle-up upbutton")
     homeButton.appendChild(newText);
     // homeButton.setAttribute("id", "link");
     let currentFooter = document.getElementById('footer');
-    homeButton.setAttribute("onclick", "link(0)");
+    // homeButton.setAttribute("onclick", "link(0)");
+    homeButton.setAttribute("href", "#top");
     currentFooter.insertAdjacentElement("beforeend", homeButton);
     $(window).on("scroll", function(){
       sT = $(this).scrollTop();
       if (sT > 536) {
-        homeButton.setAttribute("class", "btn btn-link fixed-bottom rounded-circle upstyle ")
+        homeButton.setAttribute("class", "btn btn-link fixed-bottom rounded-circle upstyle")
       } else {
         homeButton.setAttribute("class", "btn btn-link rounded-circle upstyle")
       }
@@ -82,11 +87,36 @@ $(document).ready(function(){
     return o;
   };
 
+  function jumbo(){
+    $.getJSON("./assets/script/movies.json", function(data){
+      let test = Shuffle(data);
+      for(i = 0 ; i <= 4; i++){
+        let img = data[i].url;
+        let year = data[i].date;
+        let title = data[i].name;
+        let genra = data[i].genre;
+        let y = i + 1;
+        console.log(title);
+        $("#jumbotitre" + i).html(title);
+        $("jumboannee" + i).html(year);
+        $("jumbogenre" + i).html(genra);
+        $(".a" + y).css("background-image", "url(" + img + ")");
+      }
+    });
+  }
+
+  jumbo();
+
+  $(".a1, .a2, .a3, .a4, .a5").click(function(){
+    let image = $(this).css("background-image");
+    let index2 = image.slice(4, -1);
+    console.log(index2);
+  });
+
   function show(data) {
     let img = data[i].url;
     let year = data[i].date;
     let title = data[i].name;
-    let y = data.indexOf(data[i]);
     let entry = '<div class="card col-xl-2 col-lg-3 col-md-4 col-sm-6 col-12"><img class="card-img-top" src=' + img + '><div class="card-footer"><div class="text-center">' + title + '</div><br>' + year + '</div></div>';
     if(y > 11) {
       $(entry).appendTo($('.wrapperJson3'));
@@ -164,7 +194,7 @@ $(document).ready(function(){
         let year = data[i].date;
         let price = data[i].price;
         let id = 'movieID' + i
-        let entry = '<div class="col-12 col-md-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
+        let entry = '<div class="col-12 col-sm-6 col-md-4 col-lg-3"><div class="card imgclick" id=' + id + '><a href="#embed1"><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '></a><div class="card-footer"><div class="text-center">' + title + '</div><div class="row"><div class="col">' + year + '</div><div class="col">' + price + '</div></div></div></div></div>';
         if(i % 2 === 0){
           $(entry).appendTo($('.wrapperShop1'));
         } else {

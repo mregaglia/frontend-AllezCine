@@ -18,7 +18,7 @@
     <div id="top">
       <nav class="navbar navbar-expand-md navbar-dark">
         <!-- Brand -->
-        <a class="navbar-brand icon" href="#"><span class="red">ALLEZ</span>CINE!</a>
+        <a class="navbar-brand icon" href="#"><strong><span class="red">ALLEZ</span>CINE!</strong></a>
 
         <!-- Toggler/collapsibe Button -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -62,6 +62,10 @@
       </nav>
     </div>
     <!-- jumbo -->
+    <div class="carousel-inner-text position-absolute text-pos text-center">
+      <span class="big">LATEST <span class="red">ON</span>LINE <span class="red">MO</span>VIES</span>
+      <br><span style="opacity:0.7;">In space no one can hear you scream</span>
+    </div>
     <div id="demo" class="carousel slide" data-ride="carousel">
 
       <!-- Indicators -->
@@ -75,15 +79,27 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="im1"></div>
+          <div class="carousel-caption">
+
+          </div>
         </div>
         <div class="carousel-item">
           <div class="im2"></div>
+          <div class="carousel-caption">
+
+          </div>
         </div>
         <div class="carousel-item">
           <div class="im3"></div>
+          <div class="carousel-caption">
+
+          </div>
         </div>
         <div class="carousel-item">
           <div class="im4"></div>
+          <div class="carousel-caption">
+
+          </div>
         </div>
       </div>
     </div>
@@ -100,34 +116,6 @@
   </header>
 
   <!-- social-media -->
-  <!-- <aside>
-    <div class="shift twitter">
-      <a class="center-height ml-4">Twitter</a>
-      <div class="form float-right rounded-circle mt-1 mr-1">
-        <i class="fab fa-twitter pl-1"></i>
-      </div>
-      <span class="clear-right"></span>
-    </div>
-    <div class="shift facebook">
-      <span class="center-height ml-4">Facebook</span>
-      <div class="form float-right rounded-circle mt-1 mr-1">
-        <i class="fab fa-facebook-f pl-2"></i>
-      </div>
-      <span class="clear-right"></span>
-    </div>
-    <div class="shift dribble">
-      <span class="center-height ml-4">Dribbble</span>
-      <div class="form float-right rounded-circle mt-1 mr-1">
-        <i class="fab fa-dribbble pl-1"></i>
-      </div>
-      <span class="clear-right"></span>
-    </div>
-    <div class="shift googlePlus">
-      <span class="center-height ml-4">Google+</span>
-      <div class="form float-right rounded-circle mt-1 mr-1">
-      <i class="fab fa-google-plus-g"></i>
-      </div>
-      </div>-->
   <aside>
     <div class="shift twitter">
       <span class="center-height ml-4"><a href="https://twitter.com/allocine"target="_blank">Twitter</a></span>
@@ -160,17 +148,17 @@
       <div class="row film">
         <div class="col-md col-sm-6 film ml-md-3">
           <div class="a1" data-toggle="modal" data-target="#myModal1">
-              <div class="titre">
+              <div class="titre" id="jumbotitre1">
                 <p>Batman</p>
               </div>
               <div class="row">
                 <div class="col">
-                  <div class="annee">
+                  <div class="annee" id="jumboannee1">
                     <p>2016</p>
                   </div>
                 </div>
                 <div class="col">
-                  <div class="genre">
+                  <div class="genre" id="jumbogenre1">
                     <p>comedy</p>
                   </div>
                 </div>
@@ -178,18 +166,18 @@
             </div>
         </div>
         <div class="col-md col-sm-6 film">
-          <div class="a2" data-toggle="modal" data-target="#myModal2">
-            <div class="titre">
+          <div class="a2" data-toggle="modal" data-target="#myModal1">
+            <div class="titre" id="jumbotitre2">
               <p>Survive</p>
             </div>
             <div class="row">
               <div class="col-6">
-                <div class="annee">
+                <div class="annee" id="jumboannee2">
                   <p>2016</p>
                 </div>
               </div>
               <div class="col-6">
-                <div class="genre">
+                <div class="genre" id="jumbogenre2">
                   <p>comedy</p>
                 </div>
               </div>
@@ -197,18 +185,18 @@
           </div>
         </div>
         <div class="col-md col-sm-6 film">
-          <div class="a3" data-toggle="modal" data-target="#myModal3">
-            <div class="titre">
+          <div class="a3" data-toggle="modal" data-target="#myModal1">
+            <div class="titre" id="jumbotitre0">
               <p>Les Deux tours</p>
             </div>
             <div class="row">
               <div class="col-6">
-                <div class="annee">
+                <div class="annee" id="jumboannee0">
                   <p>2016</p>
                 </div>
               </div>
               <div class="col-6">
-                <div class="genre">
+                <div class="genre" id="jumbogenre0">
                   <p>comedy</p>
                 </div>
               </div>
@@ -216,18 +204,18 @@
           </div>
         </div>
         <div class="col-md col-sm-6 film">
-          <div class="a4" data-toggle="modal" data-target="#myModal4">
-            <div class="titre">
+          <div class="a4" data-toggle="modal" data-target="#myModal1">
+            <div class="titre" id="jumbotitre3">
               <p>Seven</p>
             </div>
             <div class="row">
               <div class="col-6">
-                <div class="annee">
+                <div class="annee" id="jumboannee3">
                   <p>2016</p>
                 </div>
               </div>
               <div class="col-6">
-                <div class="genre">
+                <div class="genre" id="jumbogenre3">
                   <p>comedy</p>
                 </div>
               </div>
@@ -235,18 +223,18 @@
           </div>
         </div>
         <div class="col-md col-sm-6 film mr-md-3">
-          <div class="a5" data-toggle="modal" data-target="#myModal5">
-            <div class="titre">
+          <div class="a5" data-toggle="modal" data-target="#myModal1">
+            <div class="titre" id="jumbotitre4">
               <p>Star Wars</p>
             </div>
             <div class="row">
               <div class="col-6">
-                <div class="annee">
+                <div class="annee" id="jumboannee4">
                   <p>2016</p>
                 </div>
               </div>
               <div class="col-6">
-                <div class="genre">
+                <div class="genre" id="jumbogenre4">
                   <p>comedy</p>
                 </div>
               </div>
@@ -285,122 +273,7 @@
         </div>
       </div>
     </div>
-    <div class="modal script1" id="myModal2">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Batman</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LZSQTVdF3QM?rel=0&amp;showinfo=0"></iframe>
-            </div>
-          </div>
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <div class="">
-              <p>Il en rêvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham – et s'il veut sauver la ville des griffes du Joker, il lui faudra arrêter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-être pourra-t-il alors se décoincer un peu…</p>
-              <p><strong>Date de sortie</strong> 8 février 2017 (1h 45min)</p>
-              <p><strong>De</strong> Chris McKay
-              Avec Philippe Valmont, Rayane Bensetti, Stéphane Bern</p>
-              <p><strong>Genre</strong> Animation</p>
-              <p> <strong>Nationalités</strong> Américain, Danois</p>
-            </div>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal script1" id="myModal3">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Batman</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LZSQTVdF3QM?rel=0&amp;showinfo=0"></iframe>
-            </div>
-          </div>
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <div class="">
-              <p>Il en rêvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham – et s'il veut sauver la ville des griffes du Joker, il lui faudra arrêter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-être pourra-t-il alors se décoincer un peu…</p>
-              <p><strong>Date de sortie</strong> 8 février 2017 (1h 45min)</p>
-              <p><strong>De</strong> Chris McKay
-              Avec Philippe Valmont, Rayane Bensetti, Stéphane Bern</p>
-              <p><strong>Genre</strong> Animation</p>
-              <p> <strong>Nationalités</strong> Américain, Danois</p>
-            </div>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal script1" id="myModal4">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Batman</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LZSQTVdF3QM?rel=0&amp;showinfo=0"></iframe>
-            </div>
-          </div>
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <div class="">
-              <p>Il en rêvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham – et s'il veut sauver la ville des griffes du Joker, il lui faudra arrêter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-être pourra-t-il alors se décoincer un peu…</p>
-              <p><strong>Date de sortie</strong> 8 février 2017 (1h 45min)</p>
-              <p><strong>De</strong> Chris McKay
-              Avec Philippe Valmont, Rayane Bensetti, Stéphane Bern</p>
-              <p><strong>Genre</strong> Animation</p>
-              <p> <strong>Nationalités</strong> Américain, Danois</p>
-            </div>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="modal script1" id="myModal5">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <!-- Modal Header -->
-          <div class="modal-header">
-            <h4 class="modal-title">Batman</h4>
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-          </div>
-          <!-- Modal body -->
-          <div class="modal-body">
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LZSQTVdF3QM?rel=0&amp;showinfo=0"></iframe>
-            </div>
-          </div>
-          <!-- Modal footer -->
-          <div class="modal-footer">
-            <div class="">
-              <p>Il en rêvait depuis La Grande Aventure Lego : Batman est enfin le héros de son propre film ! Mais la situation a bien changé à Gotham – et s'il veut sauver la ville des griffes du Joker, il lui faudra arrêter de jouer au justicier masqué et découvrir le travail d'équipe ! Peut-être pourra-t-il alors se décoincer un peu…</p>
-              <p><strong>Date de sortie</strong> 8 février 2017 (1h 45min)</p>
-              <p><strong>De</strong> Chris McKay
-              Avec Philippe Valmont, Rayane Bensetti, Stéphane Bern</p>
-              <p><strong>Genre</strong> Animation</p>
-              <p> <strong>Nationalités</strong> Américain, Danois</p>
-            </div>
-            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </section>
 
   <!-- featured movie -->
@@ -434,7 +307,7 @@
         More movies
       </div>
       <div class="showless btn">
-        Less movies
+        <a href="#featuredMovies">Less movies</a>
       </div>
       </button>
     </div>
@@ -458,7 +331,7 @@
           <div class="row wrapperShop2">
           </div>
         </div>
-        <div class="col-lg-5 border border-danger bg-dark">
+        <div class="col-lg-5 col-12 border border-danger bg-dark">
           <div class="embed-responsive embed-responsive-16by9">
             <iframe id="embed1" class="embed-item-responsive" src="" allowfullscreen></iframe>
           </div>
