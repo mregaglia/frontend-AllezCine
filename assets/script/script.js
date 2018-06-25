@@ -89,7 +89,6 @@ $(document).ready(function(){
 
   function jumbo(){
     $.getJSON("./assets/script/movies.json", function(data){
-      let test = Shuffle(data);
       for(i = 0 ; i <= 4; i++){
         let img = data[i].url;
         let year = data[i].date;
@@ -101,16 +100,19 @@ $(document).ready(function(){
         $("#jumbogenre" + y).html('<p>' + genra + '</p>');
         $(".a" + y).css("background-image", "url(" + img + ")");
       }
+      $(".a1, .a2, .a3, .a4, .a5").click(function(){
+        let index = Number($(this).attr("class").slice(1));
+        let index2 = index -1
+        let trailer = data[index2].trailer;
+        console.log(index2);
+        $('#jumbomod1').html(data[index2].name)
+        $('#jumbomod2').attr("src", trailer);
+        $('#jumbomod3').html(data[index2].storyline + '<br><strong>Date de sortie</strong>: ' + data[index2].date + '<br><strong>Realisateur</strong>: ' + data[index2].real + '<br><strong>Avec</strong>: ' + data[index2].actor);
+      });
     });
   }
 
   jumbo();
-
-  $(".a1, .a2, .a3, .a4, .a5").click(function(){
-    let source = $(this).attr("class");
-    let index2 = Number(source.slice(2));
-    console.log(index2);
-  });
 
   function show(data) {
     let img = data[i].url;

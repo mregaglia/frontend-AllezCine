@@ -296,3 +296,23 @@ aside {
  .white {
    color: white;
  }
+
+/* Footer */
+
+.footer-dark {
+  background-color: black;
+  width: 100%;
+  height: auto;
+}
+
+ol li{
+  list-style-type: none;
+}
+
+.flex-container {
+  flex-wrap: wrap;
+}
+
+.flex-container div {
+  color: white;
+}
