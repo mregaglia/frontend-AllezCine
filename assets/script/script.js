@@ -50,9 +50,7 @@ $(document).ready(function(){
     let newText = document.createElement("i");
     newText.setAttribute("class", "fas fa-arrow-up upbutton rounded-circle")
     homeButton.appendChild(newText);
-    // homeButton.setAttribute("id", "link");
     let currentFooter = document.getElementById('footer');
-    // homeButton.setAttribute("onclick", "link(0)");
     homeButton.setAttribute("href", "#top");
     currentFooter.insertAdjacentElement("beforeend", homeButton);
     $(window).on("scroll", function(){
@@ -104,7 +102,6 @@ $(document).ready(function(){
         let index = Number($(this).attr("class").slice(1));
         let index2 = index -1
         let trailer = data[index2].trailer;
-        console.log(index2);
         $('#jumbomod1').html(data[index2].name)
         $('#jumbomod2').attr("src", trailer);
         $('#jumbomod3').html(data[index2].storyline + '<br><strong>Date de sortie</strong>: ' + data[index2].date + '<br><strong>Realisateur</strong>: ' + data[index2].real + '<br><strong>Avec</strong>: ' + data[index2].actor);
