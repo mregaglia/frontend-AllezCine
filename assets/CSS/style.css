@@ -262,6 +262,7 @@ aside {
 
 }
 /* Shop movies */
+
 .prix {
   text-align: right;
   color: red;
@@ -275,12 +276,30 @@ aside {
 .arrowlr{
   text-align: right;
   padding: 0;
-  padding-bottom: 4px;
   font-size: 20px;
+  z-index: 1;
+
 }
 .boxvideo {
   background-color: black;
+  padding: 0;
 }
+
+#embed2{
+  text-transform: uppercase;
+  font-weight: normal;
+  margin-top: 0 !important;
+  padding-left: 4px;
+}
+#embed3, #embed4, #embed5, #embed6{
+  font-weight: lighter;
+  font-size: 12px;
+  padding-right: 15px;
+}
+.shopg {
+  top: -25px;
+}
+
  /* UP button */
 
  .upbutton {
