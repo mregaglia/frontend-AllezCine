@@ -279,7 +279,9 @@ aside {
   padding: 0;
   font-size: 20px;
   z-index: 1;
-
+}
+.butlr {
+  margin-right: 0;
 }
 .boxvideo {
   background-color: black;
@@ -326,7 +328,19 @@ aside {
 
 /* Contact Us */
 #contactForm{
-  width: 80%;
+  width: 70%;
+}
+.form-control {
+  border-radius: 0;
+}
+#message {
+  margin-left: 10px;
+  border-color: lightgrey;
+  padding: 10px;
+}
+#submitContact {
+  margin-left: 12px;
+  padding: 6px;
 }
 
 /* Footer */
@@ -336,9 +350,12 @@ aside {
   width: 100%;
   height: auto;
 }
-
+ol {
+  padding: 0;
+}
 ol li{
   list-style-type: none;
+
 }
 
 .flex-container {
@@ -347,4 +364,21 @@ ol li{
 
 hr {
   background: rgb(64, 64, 64);
+}
+
+.footgreytxt{
+  color: rgb(128, 128, 128);
+  font-size: 12px;
+}
+.subs {
+  font-weight: normal;
+  font-size: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+/* Modal */
+
+.modalbtn {
+  bottom:10px;  
 }
