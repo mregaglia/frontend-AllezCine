@@ -292,7 +292,7 @@ aside {
   left: auto;
  }
 
- .white {
+ .white, .flex-container div, ol li {
    color: white;
  }
 
@@ -312,6 +312,6 @@ ol li{
   flex-wrap: wrap;
 }
 
-.flex-container div {
-  color: white;
+hr {
+  background: white;
 }
