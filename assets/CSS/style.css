@@ -252,6 +252,7 @@ aside {
   font-variant-caps: all-small-caps;
   background-color: rgb(253, 67, 63);
   color: white;
+  border: none;
 }
 .showbut {
   width: 100%;
@@ -289,13 +290,19 @@ aside {
   text-transform: uppercase;
   font-weight: normal;
   margin-top: 0 !important;
-  padding-left: 4px;
+  padding-left: 12px;
+
 }
-#embed3, #embed4, #embed5, #embed6{
-  font-weight: lighter;
+.txtvid {
   font-size: 12px;
-  padding-right: 15px;
 }
+.txttitle{
+  font-size: 12px;
+}
+.vidvideo{
+
+  font-size: 12px;}
+
 .shopg {
   top: -25px;
 }
@@ -316,6 +323,11 @@ aside {
  .white, .upbutton {
    color: white;
  }
+
+/* Contact Us */
+#contactForm{
+  width: 80%;
+}
 
 /* Footer */
 

@@ -344,41 +344,42 @@
             <iframe id="embed1" class="embed-item-responsive" src="" allowfullscreen></iframe>
           </div>
           <div class="container-fluid">
-            <div id="embed2" class="row mt-3 mb-3 ml-1 red">
+            <div id="embed2" class="row mt-3 mb-3 red">
               Title
             </div>
             <div class="row">
-              <div class="col-3">
-                <div class="row red">
-                  Storyline
-                </div>
-                <div class="row red">
-                  Release on
-                </div>
-                <div class="row red">
-                  Genre
-                </div>
-                <div class="row red">
-                  Price
-                </div>
+              <div class="col-3 txttitle red">
+                <p>Story line : </p>
               </div>
-              <div class="col-9">
-                <div id="embed3" class="row white">
-
-                </div>
-                <div id="embed4" class="row white">
-
-                </div>
-                <div id="embed5" class="row white">
-
-                </div>
-                <div id="embed6" class="row white">
-
-                </div>
+              <div class="col-9 txtvid">
+                <div id="embed3" class="row white"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 txttitle red">
+                <p>Release On : </p>
+              </div>
+              <div class="col-9 txtvid">
+                <div id="embed4" class="row white"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 txttitle red">
+                <p>Genre : </p>
+              </div>
+              <div class="col-9 txtvid">
+                <div id="embed5" class="row white"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-3 txttitle red">
+                <p>Price : </p>
+              </div>
+              <div class="col-9 txtvid">
+                <div id="embed6" class="row white"></div>
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </div>
@@ -394,16 +395,44 @@
 
     <div style="height:30px;"></div>
 
-    <form action id="contactForm">
-      <div class="form-group">
-        <label for="email2">Email address:</label>
-        <input type="email" class="form-control" id="email2">
+    <form action id="contactForm" class="mx-auto">
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="firstname2"></label>
+            <input placeholder="FIRST NAME"type="name" class="form-control" id="firstname2">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="lastname2"></label>
+            <input placeholder="LAST NAME"type="name" class="form-control" id="lastname2">
+          </div>
+        </div>
       </div>
-      <div class="form-group">
-        <label for="message">Votre message:</label>
-        <textarea name="name" rows="8" cols="80" id="message"></textarea>
+      <div class="row">
+        <div class="col-6">
+          <div class="form-group">
+            <label for="email2"></label>
+            <input placeholder="EMAIL"type="email" class="form-control" id="email2">
+          </div>
+        </div>
+        <div class="col-6">
+          <div class="form-group">
+            <label for="subject2"></label>
+            <input placeholder="SUBJECT"type="text" class="form-control" id="subject2">
+          </div>
+        </div>
       </div>
-      <button type="submit" class="btn btn-primary" id="submitContact">Submit</button>
+      <div class="row">
+        <div class="form-group">
+          <label for="message"></label>
+          <textarea placeholder="YOUR MESSAGE"name="name" rows="8" cols="80" id="message"></textarea>
+        </div>
+      </div>
+      <div class="row">
+        <button type="submit" class="btn btn-primary" id="submitContact">Submit</button>
+      </div>
     </form>
     <!-- <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=bruxelles&key=AIzaSyCqN3t0ZlVvPmZQCL47BzqbhTdAdVflVIU" allowfullscreen></iframe> -->
   </section>
