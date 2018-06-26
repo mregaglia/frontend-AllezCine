@@ -236,7 +236,10 @@ aside {
 .hiddenRow, .showless {
   display: none;
 }
-
+.showless a:link, .showless a:visited, .showless a:hover, .showless a:active {
+  color: white;
+  text-decoration: none;
+}
 .btn-light {
   background-color: #DFDFE0;
   color: black;
@@ -266,8 +269,8 @@ aside {
 }
 .filmouf {
   line-height: 13px;
-
 }
+
 /* Shop movies */
 
 .prix {
@@ -386,5 +389,5 @@ hr {
 /* Modal */
 
 .modalbtn {
-  bottom:10px;  
+  bottom:10px;
 }
