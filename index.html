@@ -106,15 +106,15 @@
 
 
     <!-- login -->
-    <div class="redback row">
-      <div class="numero">
-      <p><i class="fas fa-phone"></i> (+000) 009 455 4088</p>
+      <div class="redback d-flex flex-container">
+        <div class="numero">
+        <p><i class="fas fa-phone"></i> (+000) 009 455 4088</p>
+        </div>
+        <div class="logbut">
+          <button type="button" name="button" id="loginButton" class="btn btn-black rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest">Login</button>
+          <button type="button" name="button" id="registerButton" class="btn btn-black rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest2">Register</button>
+        </div>
       </div>
-      <div class="logbut">
-        <button type="button" name="button" id="loginButton" class="btn btn-black rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest">Login</button>
-        <button type="button" name="button" id="registerButton" class="btn btn-black rounded-0 pt-0 pb-0" data-toggle="modal" data-target="#modaltest2">Register</button>
-      </div>
-    </div>
   </header>
 
   <!-- social-media -->
@@ -141,8 +141,6 @@
     <div class="shift googlePlus">
       <span class="center-height ml-4"><a href="https://plus.google.com/+AlloCin%C3%A9"target="_blank">Google+</a></span>
       <button type="button"class="goo btn btn-link fab fa-google-plus-g form float-right rounded-circle mt-1 mr-1">
-
-      <!-- <span class="clear-right"></span> -->
     </div>
   </aside>
   <!-- movies -->
@@ -311,7 +309,7 @@
         More movies
       </div>
       <div class="showless">
-        Less movies
+        <a href="#featuredMovies">Less movies</a>
       </div>
       </button>
       </div>
@@ -326,11 +324,13 @@
 
   <div style="height:30px;"></div>
   <section id="shop">
-
-    <div class="col arrowlr">
-      <button class="fas fa-angle-left" id="shopBack" type="button" name="button" disabled></button>
-      <button class="fas fa-angle-right" id="shopForward" type="button" name="button"></button>
+    <div class="container">
+      <div class="col arrowlr">
+        <button class="fas fa-angle-left" id="shopBack" type="button" name="button" disabled></button>
+        <button class="fas fa-angle-right" id="shopForward" type="button" name="button"></button>
+      </div>
     </div>
+
     <div class="container-fluid">
       <div class="row">
         <div class="col shopg">
@@ -343,36 +343,38 @@
           <div class="embed-responsive embed-responsive-16by9">
             <iframe id="embed1" class="embed-item-responsive" src="" allowfullscreen></iframe>
           </div>
-          <div id="embed2" class="row mt-3 mb-3 ml-1 red">
-            Title
-          </div>
-          <div class="row">
-            <div class="col-3">
-              <div class="row red">
-                Storyline
-              </div>
-              <div class="row red">
-                Release on
-              </div>
-              <div class="row red">
-                Genre
-              </div>
-              <div class="row red">
-                Price
-              </div>
+          <div class="container-fluid">
+            <div id="embed2" class="row mt-3 mb-3 ml-1 red">
+              Title
             </div>
-            <div class="col-9">
-              <div id="embed3" class="row white">
-
+            <div class="row">
+              <div class="col-3">
+                <div class="row red">
+                  Storyline
+                </div>
+                <div class="row red">
+                  Release on
+                </div>
+                <div class="row red">
+                  Genre
+                </div>
+                <div class="row red">
+                  Price
+                </div>
               </div>
-              <div id="embed4" class="row white">
+              <div class="col-9">
+                <div id="embed3" class="row white">
 
-              </div>
-              <div id="embed5" class="row white">
+                </div>
+                <div id="embed4" class="row white">
 
-              </div>
-              <div id="embed6" class="row white">
+                </div>
+                <div id="embed5" class="row white">
 
+                </div>
+                <div id="embed6" class="row white">
+
+                </div>
               </div>
             </div>
           </div>
@@ -408,16 +410,16 @@
 
   <footer id="footer">
     <div class="footer-dark">
-      <div class="red text-center">
-        Suscribe to us
+      <div class="red text-center h4">
+        SUBSCRIBE TO US
       </div>
       <div class="text-center">
         <input type="text" name="" value="" placeholder="Enter your email...">
-        <button type="button" name="button">SUBSCRIBE</button>
+        <button type="button" name="button" class="genbutton">SUBSCRIBE</button>
       </div>
       <div class="container-fluid">
         <div class="row mt-2">
-          <div class="col">
+          <div class="col-6 col-sm-4 col-md white">
             RELEASE
             <hr>
             <ol>
@@ -429,7 +431,7 @@
               <li>2011</li>
             </ol>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-4 col-md white">
             MOVIES
             <hr>
             <ol>
@@ -440,7 +442,7 @@
               <li>MOVIES</li>
               <li>HORROR</li>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-4 col-md white">
             REVIEW MOVIES
             <hr>
             <div class="d-flex flex-container">
@@ -461,7 +463,7 @@
               <div class="bg-dark pl-1 pr-1 m-1">Historical</div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-6 col-sm-4 col-md white">
             LATEST MOVIES
             <hr>
             <div class="row">
@@ -497,7 +499,7 @@
               </div>
             </div>
           </div>
-          <div class="col mr-4">
+          <div class="col-6 col-sm-4 col-md white">
             <span class="red">ALLEZ</span>CINE!
             <hr>
             <div class="row">
@@ -520,9 +522,15 @@
         </div>
       </div>
       <hr>
+      <br>
       <hr>
-      <div class="text-center font-weight-bold">
-        Connect us
+      <div class="text-center font-weight-bold white pb-3">
+        CONNECT US <br>
+        <div class="border" style="height:30px; width:30px;display:inline-block;"><i class="fab fa-facebook-f" style="line-height:30px;"></i></div>
+        <div class="border" style="height:30px; width:30px;display:inline-block;"><i class="fab fa-twitter" style="line-height:30px;"></i></div>
+        <div class="border" style="height:30px; width:30px;display:inline-block;"><i class="fab fa-linkedin-in" style="line-height:30px;"></i></div>
+        <div class="border" style="height:30px; width:30px;display:inline-block;"><i class="fab fa-youtube" style="line-height:30px;"></i></div>
+        <div class="border" style="height:30px; width:30px;display:inline-block;"><i class="fab fa-google-plus-g" style="line-height:30px;"></i></div>
       </div>
     </div>
     <div class="modal" id="modaltest">

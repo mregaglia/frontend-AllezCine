@@ -48,7 +48,7 @@ $(document).ready(function(){
   let newButton = () =>{
     let homeButton = document.createElement("a");
     let newText = document.createElement("i");
-    newText.setAttribute("class", "far fa-arrow-alt-circle-up upbutton")
+    newText.setAttribute("class", "fas fa-arrow-up upbutton rounded-circle")
     homeButton.appendChild(newText);
     // homeButton.setAttribute("id", "link");
     let currentFooter = document.getElementById('footer');
@@ -58,9 +58,9 @@ $(document).ready(function(){
     $(window).on("scroll", function(){
       sT = $(this).scrollTop();
       if (sT > 536) {
-        homeButton.setAttribute("class", "btn btn-link fixed-bottom rounded-circle upstyle")
+        homeButton.setAttribute("class", "btn btn-link fixed-bottom upstyle")
       } else {
-        homeButton.setAttribute("class", "btn btn-link rounded-circle upstyle")
+        homeButton.setAttribute("class", "btn btn-link upstyle")
       }
     });
   };
@@ -178,10 +178,8 @@ $(document).ready(function(){
     $(".showmore, .showless").toggle(function(){
       if(hideshow == "none") {
         $('.hiddenRow').css("display", "flex");
-        position2 = $(window).scrollTop();
       } else {
         $('.hiddenRow').css("display", "none");
-        link(position2);
       }
     });
   });

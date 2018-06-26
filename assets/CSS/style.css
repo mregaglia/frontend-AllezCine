@@ -248,7 +248,7 @@ aside {
 .movies1{
   padding-bottom: 20px;
 }
-#theshowmust, .b1, .b2, .b3, .b4{
+#theshowmust, .b1, .b2, .b3, .b4, .genbutton{
   font-variant-caps: all-small-caps;
   background-color: rgb(253, 67, 63);
   color: white;
@@ -303,15 +303,17 @@ aside {
  /* UP button */
 
  .upbutton {
-   color: rgb(253, 67, 63);
-   font-size: 38px;
+   font-size: 28px;
+   padding: 5px;
+   border: 2px solid red;
+   background: black;
  }
 
  .upstyle{
   left: auto;
  }
 
- .white, .flex-container div, ol li {
+ .white, .upbutton {
    color: white;
  }
 
@@ -332,5 +334,5 @@ ol li{
 }
 
 hr {
-  background: white;
+  background: rgb(64, 64, 64);
 }
