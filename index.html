@@ -9,7 +9,7 @@
   <!-- font awesome cdn -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/CSS/style.css">
-  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -17,6 +17,7 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
+  <meta name="Description" content="site Allez Cine">
   <title>Document</title>
 </head>
 <body>
@@ -128,26 +129,23 @@
 
   <aside>
     <div class="shift twitter">
-      <span class="center-height ml-4"><a href="https://twitter.com/allocine"target="_blank">Twitter</a></span>
-      <button type="button" class="twi btn btn-link fab fa-twitter pl-1 form float-right rounded-circle mt-1 mr-1">
-
+      <span class="center-height ml-4"><a href="https://twitter.com/allocine" target="_blank">Twitter</a></span>
+      <button type="button" class="twi btn btn-link fab fa-twitter pl-1 form float-right rounded-circle mt-1 mr-1"></button>
       <span class="clear-right"></span>
     </div>
     <div class="shift facebook">
-      <span class="center-height ml-4"><a href="https://www.facebook.com/allocine"target="_blank">Facebook</a></span>
-      <button type="button" class="fac btn btn-link fab fa-facebook-f pl-2 form float-right rounded-circle mt-1 mr-1">
-
+      <span class="center-height ml-4"><a href="https://www.facebook.com/allocine" target="_blank">Facebook</a></span>
+      <button type="button" class="fac btn btn-link fab fa-facebook-f pl-2 form float-right rounded-circle mt-1 mr-1"></button>
       <span class="clear-right"></span>
     </div>
     <div class="shift dribble">
-      <span class="center-height ml-4"><a href="https://dribbble.com/RDDteam"target="_blank">Dribbble</a></span>
-      <button type="button" class="dri btn btn-link fab fa-dribbble pl-1 form float-right rounded-circle mt-1 mr-1">
-
+      <span class="center-height ml-4"><a href="https://dribbble.com/RDDteam" target="_blank">Dribbble</a></span>
+      <button type="button" class="dri btn btn-link fab fa-dribbble pl-1 form float-right rounded-circle mt-1 mr-1"></button>
       <span class="clear-right"></span>
     </div>
     <div class="shift googlePlus">
-      <span class="center-height ml-4"><a href="https://plus.google.com/+AlloCin%C3%A9"target="_blank">Google+</a></span>
-      <button type="button"class="goo btn btn-link fab fa-google-plus-g form float-right rounded-circle mt-1 mr-1">
+      <span class="center-height ml-4"><a href="https://plus.google.com/+AlloCin%C3%A9" target="_blank">Google+</a></span>
+      <button type="button" class="goo btn btn-link fab fa-google-plus-g form float-right rounded-circle mt-1 mr-1"></button>
     </div>
   </aside>
   <!-- movies -->
@@ -279,52 +277,52 @@
   </section>
 
   <!-- featured movie -->
-  <div style="height:60px;"></div>
 
-  <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
-  <h3 style="line-height:40px;">FEATURED MOVIES</h3>
-
-  <div style="height:30px;"></div>
-
-  <section class="clearfix container" id="featuredMovies">
+  <section id="featuredMovies">
+    <div style="height:60px;"></div>
+    <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
+    <h3 style="line-height:40px;">FEATURED MOVIES</h3>
+    <div style="height:30px;"></div>
     <div class="container">
-      <div class="btn-group" role="group">
-        <button type="button" autofocus name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="allButton">All</button>
-        <button type="button" name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="actionButton">Action</button>
-        <button type="button" name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="animationButton">Animation</button>
-      </div>
-      <div class="movies1">
-        <div class="row wrapperJson">
-
+      <div class="container">
+        <div class="btn-group" role="group">
+          <button type="button" autofocus name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="allButton">All</button>
+          <button type="button" name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="actionButton">Action</button>
+          <button type="button" name="button" class="btn btn-light rounded-0 pt-0 pb-0" id="animationButton">Animation</button>
         </div>
-        <div class="row wrapperJson2">
+        <div class="movies1">
+          <div class="row wrapperJson">
 
-        </div>
-        <div class="row wrapperJson3 hiddenRow">
+          </div>
+          <div class="row wrapperJson2">
 
+          </div>
+          <div class="row wrapperJson3 hiddenRow">
+
+          </div>
         </div>
-      </div>
-      <div class="showbut">
-      <button id="theshowmust" type="button" name="button" class="genbutton1">
-      <div class="showmore">
-        More movies
-      </div>
-      <div class="showless">
-        <a href="#featuredMovies">Less movies</a>
-      </div>
-      </button>
+        <div class="showbut">
+          <div id="theshowmust" class="btn rounded-0">
+            <span class="showmore">
+              More movies
+            </span>
+            <span class="showless">
+              <a href="#featuredMovies">Less movies</a>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
+
   </section>
 
   <!-- shop -->
-  <div style="height:60px;"></div>
 
-  <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
-  <h3 style="line-height:40px;">SHOP MOVIES</h3>
-
-  <div style="height:30px;"></div>
   <section id="shop">
+    <div style="height:60px;"></div>
+    <div class="redback float-left ml-5 mr-3" style="width:6px;height:40px;"></div>
+    <h3 style="line-height:40px;">SHOP MOVIES</h3>
+    <div style="height:30px;"></div>
     <div class="container butlr">
       <div class="col arrowlr">
         <button class="fas fa-angle-left" id="shopBack" type="button" name="button" disabled></button>
@@ -396,18 +394,18 @@
 
     <div style="height:30px;"></div>
 
-    <form action id="contactForm" class="mx-auto">
+    <form action="/action_page" id="contactForm" class="mx-auto">
       <div class="row">
         <div class="col-6">
           <div class="form-group">
             <label for="firstname2"></label>
-            <input placeholder="FIRST NAME"type="name" class="form-control" id="firstname2">
+            <input placeholder="FIRST NAME" type="text" class="form-control" id="firstname2">
           </div>
         </div>
         <div class="col-6">
           <div class="form-group">
             <label for="lastname2"></label>
-            <input placeholder="LAST NAME"type="name" class="form-control" id="lastname2">
+            <input placeholder="LAST NAME" type="text" class="form-control" id="lastname2">
           </div>
         </div>
       </div>
@@ -415,20 +413,20 @@
         <div class="col-6">
           <div class="form-group">
             <label for="email2"></label>
-            <input placeholder="EMAIL"type="email" class="form-control" id="email2">
+            <input placeholder="EMAIL" type="email" class="form-control" id="email2">
           </div>
         </div>
         <div class="col-6">
           <div class="form-group">
             <label for="subject2"></label>
-            <input placeholder="SUBJECT"type="text" class="form-control" id="subject2">
+            <input placeholder="SUBJECT" type="text" class="form-control" id="subject2">
           </div>
         </div>
       </div>
       <div class="row">
         <div class="form-group">
           <label for="message"></label>
-          <textarea placeholder="YOUR MESSAGE"name="name" rows="8" cols="80" id="message"></textarea>
+          <textarea placeholder="YOUR MESSAGE" name="name" rows="8" cols="80" id="message"></textarea>
         </div>
       </div>
       <div class="row">
@@ -443,8 +441,9 @@
         </div>
       </div>
     </div>
+    <div style="height:30px;"></div>
   </section>
-  <div style="height:30px;"></div>
+
 
   <footer id="footer">
     <div class="footer-dark">
@@ -452,7 +451,7 @@
         SUBSCRIBE TO US
       </div>
       <div class="text-center">
-        <input type="text" name="" value="" placeholder="Enter your email...">
+        <input type="text" name="email" placeholder="Enter your email...">
         <button type="button" name="button" class="genbutton">SUBSCRIBE</button>
       </div>
       <div class="container-fluid">
@@ -479,6 +478,7 @@
               <li>ACTION</li>
               <li>MOVIES</li>
               <li>HORROR</li>
+            </ol>
           </div>
           <div class="col-6 col-sm-4 col-md white">
             REVIEW MOVIES
@@ -578,7 +578,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">
-            <form action=>
+            <form action="/action_page">
               <div class="form-group">
                 <label for="login">Login</label>
                 <input type="text" class="form-control" id="login">
@@ -608,7 +608,7 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-body">
-            <form action=>
+            <form action="/action_page">
               <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name">
@@ -623,8 +623,8 @@
               </div>
               <div class="form-group form-check">
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                  <label class="form-check-label" for="defaultCheck1">Terms of service</label>
+                  <input class="form-check-input" type="checkbox" id="defaultCheck2">
+                  <label class="form-check-label" for="defaultCheck2">Terms of service</label>
                 </div>
               </div>
               <button type="button" name="button" class="vanish2">Register</button>
@@ -640,8 +640,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
-  <script src="./assets/script/script.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+  <script type="text/javascript" src="./assets/script/script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
   <script>
   window.addEventListener("load", function(){
   window.cookieconsent.initialise({
