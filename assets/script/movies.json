@@ -6,7 +6,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/QwievZ1Tx-8?rel=0",
     "storyline" : "Les Avengers et leurs alliés devront être prêts à tout sacrifier pour neutraliser le redoutable Thanos avant que son attaque éclair ne conduise à la destruction complète de l’univers.",
-    "price" : "18 Euro",
+    "price" : "18 €",
     "real" : "Joe Russo, Anthony Russo",
     "actor" : "Robert Downey Jr., Chris Hemsworth, Mark Ruffalo"
   },
@@ -17,7 +17,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/cSp1dM2Vj48",
     "storyline" : "2045. Le monde est au bord du chaos. Les êtres humains se réfugient dans l'OASIS, univers virtuel mis au point par le brillant et excentrique James Halliday.",
-    "price" : "18 Euro",
+    "price" : "18 €",
     "real" : "Steven Spielberg",
     "actor" : "Tye Sheridan, Olivia Cooke, Ben Mendelsohn"
   },
@@ -28,7 +28,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/E30XKoBJOlY",
     "storyline" : "L'archéologue aventurier Indiana Jones se retrouve aux prises avec un maléfique milliardaire. Aux côtés de la cupide Elsa et de son père, il part à la recherche du Graal.",
-    "price" : "18 Euro",
+    "price" : "18 €",
     "real" : "Steven Spielberg",
     "actor" : "Harrison Ford, Sean Connery, Denholm Elliott"
   },
@@ -39,7 +39,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/EXeTwQWrcwY",
     "storyline" : "Dans ce nouveau volet, Batman augmente les mises dans sa guerre contre le crime. Avec l'appui du lieutenant de police Jim Gordon et du procureur de Gotham, Harvey Dent, Batman vise à éradiquer le crime organisé qui pullule dans la ville.",
-    "price" : "18 Euro",
+    "price" : "18 €",
     "real" : "Christopher Nolan",
     "actor" : "Christian Bale, Heath Ledger, Aaron Eckhart"
   },
@@ -50,9 +50,9 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/I5kzcwcQA1Q",
     "storyline" : "Ancien Marine brisé, Tommy Conlon rentre au pays et demande à son père de le préparer pour un tournoi d’arts martiaux mixtes qui lui permettrait de gagner une fortune. Personne ne sait ce qu’il espère faire de cet argent.",
-    "price" : "18 Euro",
+    "price" : "18 €",
     "real" : "Gavin O'Connor",
-    "actor" : "Joel Edgerton, Tom Hardy, Jennifer Morrison" 
+    "actor" : "Joel Edgerton, Tom Hardy, Jennifer Morrison"
   },
   {
     "url" : "./assets/images/action/20158098.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -61,7 +61,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/3ohiQ6cLRsE",
     "storyline" : "Comment un homme seul peut-il changer le monde ? Telle est la question qui hante Bruce Wayne depuis cette nuit tragique où ses parents furent abattus sous ses yeux, dans une ruelle de Gotham City.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/595449.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -70,7 +70,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/wAMpA6aHc5c",
     "storyline" : "Six enfants génétiquement modifiés (ils sont 98% humains, 2% oiseaux) parviennent à échapper à leurs créateurs. Des hommes-loups sont lancés sur leurs traces pour les éliminer...",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/0659238.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -79,7 +79,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/8jtnZbWzNbk",
     "storyline" : "Un agent sous couverture se réveille prisonnier dans une prison de la CIA basée... dans un sous-marin.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/0850449.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -88,7 +88,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/XiHiW4N7-bo",
     "storyline" : "Les meilleures intentions finissent souvent par se retourner contre vous… Dans MISSION : IMPOSSIBLE – FALLOUT, Ethan Hunt accompagné de son équipe de l’IMF – Impossible Mission Force et de quelques fidèles alliées sont lancés dans une course contre la montre, suite au terrible échec d’une mission.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/0883250.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -97,7 +97,7 @@
     "genre" : "action",
     "trailer" : "www.youtube.com/embed/xjDjIWPwcPU",
     "storyline" : "Après les événements qui se sont déroulés dans Captain America : Civil War, T’Challa revient chez lui prendre sa place sur le trône du Wakanda, une nation africaine technologiquement très avancée",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/1363911.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -106,7 +106,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/u9Mv98Gr5pY",
     "storyline" : "L'histoire de Venom (Eddie Brock), l'ennemi de Spider-Man, qui cherche inlassablement à se venger de l'homme-araignée qui l'a fait renvoyer du Daily Bugle.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/2317955.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -115,7 +115,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/D86RtevtfrA",
     "storyline" : "L’insolent mercenaire de Marvel remet le masque ! Plus grand, plus-mieux, et occasionnellement les fesses à l’air, il devra affronter un Super-Soldat dressé pour tuer, repenser l’amitié, la famille, et ce que signifie l’héroïsme – tout en bottant cinquante nuances de culs, car comme chacun sait, pour faire le Bien, il faut parfois se salir les doigts.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/2548759.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -124,7 +124,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/6fmUv6tVWf8",
     "storyline" : "Sylvain Marot, super flic parisien et pilote d’exception, est muté contre son gré à la Police Municipale de Marseille. L’ex-commissaire Gibert, devenu Maire de la ville et au plus bas dans les sondages, va alors lui confier la mission de stopper le redoutable « Gang des Italiens », qui écume des bijouteries à l’aide de puissantes Ferrari.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/3676882.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -133,7 +133,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/8ndhidEmUbI",
     "storyline" : "Lara Croft, 21 ans, n'a ni projet, ni ambition : fille d'un explorateur excentrique porté disparu depuis sept ans, cette jeune femme rebelle et indépendante refuse de reprendre l'empire de son père.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/4036914.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -142,7 +142,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/uEFAw-SW4f4",
     "storyline" : "L’histoire vraie de Billy Moore, jeune boxeur anglais incarcéré dans une prison en Thaïlande pour détention de drogue. Dans cet enfer, il est rapidement confronté à la violence des gangs et n’a plus que deux choix : mourir ou survivre.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/4182383.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -151,7 +151,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/SaZNFH4OORg",
     "storyline" : "Primatologue de profession, David Okoye a plus de mal à nouer des liens avec ses semblables qu'avec les singes. Pas étonnant qu'il se soit pris d'affection pour George, adorable gorille d'une intelligence hors du commun, dont il s'occupe depuis sa naissance.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/4187958.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -160,7 +160,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/HyNJ3UrGk_I",
     "storyline" : "Le retour de Robert McCall, ancien espion travaillant en solitaire.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/action/5339594.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -169,7 +169,7 @@
     "genre" : "action",
     "trailer" : "https://www.youtube.com/embed/sU3TRJiRobs",
     "storyline" : "Trois riches chefs d’entreprise quarantenaires, mariés et bons pères de famille se retrouvent pour leur partie de chasse annuelle dans une zone désertique de canyons.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/0048194.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -178,7 +178,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/smCNlbNvre0",
     "storyline" : "Lila vit dans le monde merveilleux d’un livre pour enfants quand, soudainement, elle est enlevée à sa luxuriante jungle de papier. La voilà plongée dans une incroyable aventure pleine de dangers.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/003422.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -187,7 +187,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/0arQ24FFt3s",
     "storyline" : "Lassés d’être les souffre-douleur de leur communauté, Ajar le serpent et son pote Pitt le scorpion décident de tenter leur chance dans l'oasis voisine où vit la haute bourgeoisie du désert saharien et d'y retrouver Eva, une belle serpente dont Ajar est tombé fou amoureux. ",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/0056825.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -196,7 +196,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/aTaW-HtvkQo",
     "storyline" : "Depuis déjà plusieurs générations, la musique est bannie dans la famille de Miguel. Un vrai déchirement pour le jeune garçon dont le rêve ultime est de devenir un musicien aussi accompli que son idole, Ernesto de la Cruz.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/0323277.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -205,7 +205,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/M74pju6vxsU",
     "storyline" : "Pat et Mat ont posé leurs cartons dans une toute nouvelle maison. Les deux inséparables bricoleurs ont des idées à la pelle pour améliorer leur quotidien. Mais leur nouveau terrain de jeux va-t-il résister à leurs expériences farfelues ?",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/0323902.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -214,7 +214,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/9ZDb7CMutAE",
     "storyline" : "Notre famille de super-héros préférée est de retour! Cette fois c’est Hélène qui se retrouve sur le devant de la scène laissant à Bob le soin de mener à bien les mille et une missions de la vie quotidienne et de s’occuper de Violette, Flèche et de bébé Jack-Jack.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/0841317.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -223,7 +223,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/Pll_ALJTrGQ",
     "storyline" : "En Afghanistan, sous le régime taliban, Parvana, onze ans, grandit à Kaboul ravagée par la guerre. Elle aime écouter les histoires que lui raconte son père, lecteur et écrivain public.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/1052693.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -232,7 +232,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/2TbFlVm4WaU",
     "storyline" : "Le petit lapin préféré des jeunes lecteurs depuis des générations est désormais le héros d’un film plein d’aventures et d’espièglerie ! L'éternelle lutte de Pierre Lapin avec M. McGregor pour les légumes du potager va atteindre des sommets. ",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/1504983.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -241,7 +241,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/6X2wTGCdNzo",
     "storyline" : "Notre famille de monstres préférée embarque pour une croisière de rêve afin que Drac puisse enfin souffler un peu et savourer des vacances au lieu de s’occuper de tout le monde à l’hôtel.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/1622249.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -250,7 +250,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/ToWe0jaVojw",
     "storyline" : "Tad l’explorateur part à Las Vegas pour voir la dernière découverte de son amie Sara, intrépide et charmante archéologue : elle a trouvé l'un des trois anneaux d'or appartenant au collier du Roi Midas !",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/1748397.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -259,7 +259,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/g4Hbz2jLxvQ",
     "storyline" : "SPIDER-MAN : NEW GENERATION présente Miles Morales, un adolescent vivant à Brooklyn, et révèle les possibilités illimitées du Spider-Verse, un univers où plus d’un peut porter le masque…",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/3087565.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -268,7 +268,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/PU_BkeejXgM",
     "storyline" : "Un petit garçon rêve de suivre son père sur la mer, mais c'est à terre qu'une aventure l'attend.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/4019182.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -277,7 +277,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/WOGWWxBgCUI",
     "storyline" : "En raison d’une épidémie de grippe canine, le maire de Megasaki ordonne la mise en quarantaine de tous les chiens de la ville, envoyés sur une île qui devient alors l’Ile aux Chiens.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/4241392.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -286,7 +286,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/gv5edpF9hDI",
     "storyline" : "Léo a 12 ans. Lorsque trois extra-terrestres débarquent près de chez lui, cet enfant solitaire se retrouve embarqué dans de folles aventures…",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/5068927.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -295,7 +295,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/nyjkWXRfif4",
     "storyline" : "Deux petites filles viennent s'installer avec leur père dans une grande maison à la campagne afin de se rapprocher de l'hôpital ou séjourne leur mère.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/5440157.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -304,7 +304,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/tEUFQ8mdzcg",
     "storyline" : "Ce qui avait commencé comme une amitié improbable entre un jeune Viking et un redoutable dragon Fury Nocturne est devenu une épique trilogie retraçant leurs vies.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/5771427.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -313,7 +313,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/68jjY-amzhY",
     "storyline" : "Angelino est un jeune loser parmi tant d’autres à Dark Meat City, une mégalopole sans pitié sous le soleil de Californie. La journée, il livre des pizzas dans tous les recoins de la ville et la nuit, il squatte une chambre d’hôtel minable avec son coloc Vinz et une armada de cafards qui font désormais un peu partie de sa famille.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/1760452.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -322,7 +322,7 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/sLjiPsX3pAw",
     "storyline" : "Une sombre pluie va s’abattre sur une petite ville du sud de la Chine. Xiao Zhang, simple chauffeur pour le compte d’un mafieux local, dérobe à son patron un sac rempli de billets.",
-    "price" : "18 Euro"
+    "price" : "18 €"
   },
   {
     "url" : "./assets/images/animation/2694666.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg",
@@ -331,6 +331,6 @@
     "genre" : "animation",
     "trailer" : "https://www.youtube.com/embed/oP4U9ya33RU",
     "storyline" : "Ralph quitte l’univers des jeux d’arcade pour s’aventurer dans le monde sans limite d’Internet. La Toile va-t-elle résister à son légendaire talent de démolisseur ?",
-    "price" : "18 Euro"
+    "price" : "18 €"
   }
 ]
