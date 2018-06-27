@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="site Allez Cine">
+  <title>Newsletter</title>
+  <style type="text/css">
+    html {
+      font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    .bandeau1 {
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      width: 100%;
+      height: 100px;
+      position: absolute;
+      top: 0;
+    }
+    section, footer {
+      position: relative;
+      top: 120px;
+    }
+    .bandeau1 span {
+      color: red;
+      font-size: 40px;
+      text-align: center;
+    }
+    .bandeau1 h2 {
+      margin: 25px;
+      font-size: 40px;
+      text-align: center;
+    }
+
+    .barre {
+      height: 40px;
+      width: 6px;
+      background-color: rgb(253, 67, 63);
+      float: left;
+      margin-left: 16px;
+      margin-right: 16px;
+    }
+    .clear{
+      clear: left;
+    }
+    h3 {
+      line-height: 40px;
+      text-transform: uppercase;
+      font-size: 25px;
+      font-weight: 500;
+
+    }
+    table, td, tr {
+      /* border: 1px solid black; */
+    }
+    .sorties, .promos {
+      position: relative;
+      margin-top: 40px;
+      margin-bottom: 40px;
+    }
+    .promos {
+      width: 60%;
+      left: 20%;
+    }
+    .sorties {
+      width: 70%;
+      left: 15%;
+    }
+    tr img {
+      width: 100%;
+      height: auto;
+    }
+    .titre1 {
+      text-align: center;
+
+    }
+    .titre2 {
+      text-align: center;
+      height: 40px;
+      font-weight: bold;
+    }
+    .price {
+      color: red;
+      text-align: right;
+      font-size: 20px;
+    }
+    .oldprice {
+      text-align: center;
+    }
+    .procent {
+      background-color: rgb(253, 67, 63);
+      color: white;
+      font-weight: bold;
+      font-size: 20px;
+      height: 40px;
+      text-align: center;
+      width: 18%;
+    }
+    .marg1 {
+      border-spacing: 20px 0px;
+    }
+    .bandeau2 {
+      background-color: black;
+      color: white;
+      text-transform: uppercase;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      padding-top: 20px;
+      /* position: absolute; */
+      /* top: 0; */
+    }
+    .some {
+      padding-top: 15px;
+
+    }
+    a {
+      padding: 0 2px;
+    }
+    .picto {
+      width: 30px;
+    }
+    footer {
+      color: grey;
+      font-size: 10px;
+      padding: 0 10px 15px 10px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <header>
+    <div class="bandeau1">
+      <div>
+        <h2><span>ALLEZ</span>CINE!</h2>
+      </div>
+    </div>
+  </header>
+  <section>
+    <div class="barre">
+    </div>
+    <h3>Les dernières sorties</h3>
+    <table class="clear sorties marg1">
+      <tbody>
+        <tr>
+          <td><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/action/595449.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="maximumride"></td>
+          <td><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/action/0883250.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="blackpanther"></td>
+          <td><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/action/3437390.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="rpo"></td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr class="titre1">
+          <td>Maximum Ride</td>
+          <td>Black Panther</td>
+          <td>Ready Player One</td>
+        </tr>
+      </tfoot>
+    </table>
+
+  </section>
+
+  <section>
+    <div class="barre">
+    </div>
+    <h3>Promos</h3>
+    <table class="promos marg1">
+      <tbody>
+        <tr>
+          <td colspan="3"><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/animation/1052693.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="Pierre Lapin"></td>
+          <td colspan="3"><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/action/4187958.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="Equalizer 2"></td>
+        </tr>
+        <tr>
+          <td class="titre2" colspan="3">Pierre Lapin</td>
+          <td class="titre2" colspan="3">Equalizer 2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td class="procent">-50%</td>
+          <td class="price">9€</td>
+          <td class="oldprice marg1"><del>18€</del></td>
+          <td class="procent">-50%</td>
+          <td class="price">9€</td>
+          <td class="oldprice"><del>18€</del></td>
+        </tr>
+      </tfoot>
+    </table>
+    <table class="promos marg1">
+      <tbody>
+        <tr>
+          <td colspan="3"><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/animation/2694666.jpg-c_215_290_x-f_jpg-q_x-xxyxx.jpg" alt="Ralph 2.0"></td>
+          <td colspan="3"><img src="https://gderuwez.github.io/frontend-AllezCine/assets/images/action/19794371.jpg-c_215_290_x-o_club300a.png_SE_0-f_jpg-q_x-xxyxx.jpg" alt="Warrior"></td>
+        </tr>
+        <tr>
+          <td class="titre2" colspan="3">Ralph 2.0</td>
+          <td class="titre2" colspan="3">Warrior</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td class="procent">-50%</td>
+          <td class="price">9€</td>
+          <td class="oldprice"><del>18€</del></td>
+          <td class="procent">-50%</td>
+          <td class="price">9€</td>
+          <td class="oldprice"><del>18€</del></td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <section>
+    <div class="bandeau2">
+      suivez-nous sur
+      <div class="some">
+        <a href="https://www.facebook.com/allocine" target="_blank">
+            <img class="picto" src="./face1.png" alt="facebook">
+        </a>
+        <a href="https://twitter.com/allocine" target="_blank">
+            <img class="picto" src="./twi1.png" alt="twitter">
+        </a>
+        <a href="https://www.linkedin.com/company/allocine/" target="_blank">
+            <img class="picto" src="./in1.png" alt="linkedin">
+        </a>
+        <a href="https://www.youtube.com/user/allocine" target="_blank">
+            <img class="picto" src="./you1.png" alt="youtube">
+        </a>
+        <a href="https://plus.google.com/+AlloCin%C3%A9" target="_blank">
+            <img class="picto" src="./goo1.png" alt="googleplus">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget ante placerat odio feugiat dignissim. Sed aliquet gravida leo quis pellentesque. Quisque efficitur, urna vel semper sagittis, augue lorem congue sapien, at gravida ex leo at mauris. Phasellus rhoncus egestas risus nec facilisis. Proin sit amet sem et purus malesuada sollicitudin. Vestibulum vitae tempor ante. Curabitur tempor neque id nibh luctus euismod eu vitae nisl. Phasellus in faucibus enim. Praesent semper nisi nibh, at accumsan nisl sollicitudin vitae. Etiam porttitor vel neque nec suscipit. Etiam auctor, nunc sed hendrerit placerat, metus nisi semper nisl, sed lobortis purus enim et tellus.</p>
+    <p>In eleifend sem quis dui consequat feugiat. Donec rutrum justo at purus elementum elementum. Curabitur nisi nibh, tempus sit amet mauris at, suscipit placerat elit. Nunc quis laoreet velit. Duis eget odio sapien. Ut luctus dui magna, eu consequat ipsum auctor ut. Integer fringilla pretium neque. Nullam sit amet fermentum turpis.</p>
+  </footer>
+
+</body>
+</html>
