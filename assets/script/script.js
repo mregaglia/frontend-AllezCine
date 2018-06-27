@@ -48,6 +48,7 @@ $(document).ready(function(){
   let newButton = () =>{
     let homeButton = document.createElement("a");
     let newText = document.createElement("i");
+    homeButton.setAttribute("aria-label", "link to home page")
     newText.setAttribute("class", "fas fa-arrow-up upbutton rounded-circle")
     homeButton.appendChild(newText);
     let currentFooter = document.getElementById('footer');
