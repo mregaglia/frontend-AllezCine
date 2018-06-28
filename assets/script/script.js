@@ -168,15 +168,15 @@ $(document).ready(function(){
 
   all();
 
-  $("#actionButton").click(function(){
+  $("#actionButton, #actionButton2").click(function(){
     movies("./assets/script/action.json");
   });
 
-  $("#animationButton").click(function(){
+  $("#animationButton, #animationButton2").click(function(){
     movies("./assets/script/animation.json");
   });
 
-  $("#allButton").click(function(){
+  $("#allButton, allButton2").click(function(){
     all();
   });
 
