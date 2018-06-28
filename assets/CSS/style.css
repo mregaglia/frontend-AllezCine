@@ -1,70 +1,159 @@
-/* menu */
+/*common*/
 
-#top nav {
-position: absolute;
-width: 100%;
-z-index: 20;
+#top nav, .text-pos, .carousel-inner img, .showbut, .footer-dark {
+  width: 100%;
 }
 
-.icon, .big {
+#top nav, .posright {
+  position: absolute;
+}
+
+.icon, .big, #shopBack, #shopForward, .arrowlr, .boxvideo, ol {
   padding: 0;
-  font-size: 2.5em;
 }
 
-#collapsibleNavbar li:not(:first-child) a{
+#collapsibleNavbar li:not(:first-child) a, .round-like{
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+#collapsibleNavbar li:not(:first-child) a, .numero, .btn-black, .shift a:link, .shift a:visited, .shift a:hover, .shift a:active, .center-height, .text-pos, .showless a:link, .showless a:visited, .showless a:hover, .showless a:active {
   color: white;
 }
 
+.btn-light:hover, .btn-light:active, .btn-light:focus, #theshowmust, .b1, .b2, .b3, .b4, .genbutton, .white, .upbutton {
+  color: white;
+}
+
+.redback, .carousel-indicators .active, .btn-light:hover, .btn-light:active, .btn-light:focus, #theshowmust, .b1, .b2, .b3, .b4, .genbutton{
+  background-color: rgb(253, 67, 63);
+}
+
+.numero, .annee, .genre {
+  font-size: 10px;
+}
+
+.btn-black, .carousel-inner, #shopBack, #shopForward, .boxvideo, .footer-dark, .upbutton{
+  background-color: black;
+}
+
+.btn-black, .btn-light, .txtvid, .txttitle, .vidvideo, .footgreytxt, .center-height {
+  font-size: 12px;
+}
+
+.round-like, .btn-light:hover, .btn-light:active, .btn-light:focus, #theshowmust, .b1, .b2, .b3, .b4, .genbutton, .card {
+  border: none;
+}
+
+.btn-black, #theshowmust, .b1, .b2, .b3, .b4, .genbutton {
+  font-variant-caps: all-small-caps;
+}
+
+.round-like, .form {
+  height: 25px;
+}
+
+.shift a:link, .shift a:visited, .shift a:hover, .shift a:active, .twi:hover, .fac:hover, .dri:hover, .goo:hover, .twi:focus, .fac:focus, .dri:focus, .goo:focus, .showless a:link, .showless a:visited {
+  text-decoration: none;
+}
+
+.showless a:hover, .showless a:active {
+  text-decoration: none;
+}
+
+.form, .twi:hover, .fac:hover, .dri:hover, .goo:hover, .carousel-indicators li {
+  background-color: white;
+}
+
+.twi, .fac, .dri, .goo, .twi:hover, .fac:hover, .dri:hover, .goo:hover, .btn-ligh {
+  color: black;
+}
+
+.text-pos, .cadre, .a1, .a2, .a3, .a4, .a5, .footer-dark {
+  height: auto;
+}
+
+.im1, .im2, .im3, .im4 {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  filter: opacity(40%);
+}
+
+.titre, .showbut {
+  text-align: center;
+}
+
+.titre, .txt1{
+  font-size: 13px;
+}
+
+.a1, .a2, .a3, .a4, .a5 {
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 4px;
+}
+
+.titre, .filmouf{
+  line-height: 13px;
+}
+
+.genre, .prix, .arrowlr {
+  text-align: right;
+}
+.icon, .big {
+  font-size: 2.5em;
+}
+.twi, .fac, .dri, .goo {
+  font-size: 11px;
+  padding-left: 4px;
+}
+.hiddenRow, .showless {
+  display: none;
+}
+.btn-light:hover, .btn-light:active, .btn-light:focus {
+  outline: none;
+}
+#shopBack, #shopForward{
+  color: grey;
+  width: 20px;
+}
+.arrowlr, .subs {
+  font-size: 20px;
+}
+/* menu */
+
+#top nav {
+z-index: 20;
+}
 #collapsibleNavbar li a{
   font-size: 0.7em;
 }
-
 .red {
   color: rgb(253, 67, 63);
   font-weight: bold;
 }
-
 .redback {
-  background-color: rgb(253, 67, 63);
   line-height: 0;
   height: 30px;
 }
 .logbut{
   padding-top: 4px;
 }
-
 .numero{
-  padding-left: 30px;
-  color: white;
-  font-size: 10px;
-  padding-right: 20px;
-  padding-top: 12px;
-
+  padding: 12px 20px 0 30px;
 }
 .fa-phone{
   transform: rotateY(180deg);
   font-size: 8px;
 }
-
 .btn-black {
-  background-color: black;
-  color: white;
   height: 22px;
-  font-size: 12px;
-  font-variant-caps: all-small-caps;
 }
-
 .round-like {
   border-radius: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-  border: none;
   color: #e0e0e0;
-  height: 25px;
 }
-
 .posright {
-  position: absolute;
   right: 0px;
 }
 
@@ -76,7 +165,6 @@ aside {
   top: 200px;
   text-align: inherit;
 }
-
 .shift {
  border-radius: 0 25px 25px 0;
  width: 115px;
@@ -85,22 +173,12 @@ aside {
  transition: 1.0s;
  height: 35px;
  transition-delay: 1;
-
 }
-
 .shift:hover {
   left: 0;
 }
-
-.shift a:link, .shift a:visited, .shift a:hover, .shift a:active {
-  color: white;
-  text-decoration: none;
-}
-
 .form {
-  height: 25px;
   width: 25px;
-  background-color: white;
 }
 .twitter{
   background-color: #29A6F1;
@@ -114,58 +192,20 @@ aside {
 .googlePlus {
   background-color: #E4493C;
 }
-.twi, .fac, .dri, .goo {
-  font-size: 11px;
-  padding-left: 4px;
-  color: black;
-}
-.twi:hover, .fac:hover, .dri:hover, .goo:hover {
-  background-color: white;
-  text-decoration: none;
-  color: black;
-}
-.twi:focus, .fac:focus, .dri:focus, .goo:focus {
-  text-decoration: none;
-}
 .clear-right {
   clear: right;
 }
-
 .center-height {
   line-height: 35px;
-  font-size:12px;
-  color: white;
 }
-
 /* Jumbo */
 
 .text-pos {
   top: 150px;
   z-index: 500;
-  width: 100%;
-  height: auto;
-  color: white;
 }
-
 .carousel-inner img {
-    width: 100%;
-    height: 100%;
-}
-.carousel-indicators .active {
-  background-color: rgb(253, 67, 63);
-}
-.carousel-indicators li{
-  background-color: white;
-}
-.carousel-inner{
-  background-color: black;
-}
-.im1, .im2, .im3, .im4 {
-
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  filter: opacity(40%);
+  height: 100%;
 }
 .im1 {
   background-image: url(../images/jumbo_Avengers_Infinity_war_poster.jpg);
@@ -181,50 +221,25 @@ aside {
 }
 
 /* FILM */
-.cadre{
-  border-style: solid;
-  border-color: lightgrey;
-  border-width: 1px;
+.cadre {
+  border: 1px solid lightgrey;
   border-radius: 3px;
-  height: auto;
 }
-
 .film{
   padding-top: 25px;
 }
 .titre {
   padding-top: 145%;
-  text-align: center;
-  font-size: 13px;
-  line-height: 13px;
-}
-
-.a1, .a2, .a3, .a4, .a5 {
-  background-size: contain;
-  height: auto;
-  background-repeat: no-repeat;
-  line-height: 4px;
-}
-
-.annee {
-  font-size: 10px;
-}
-.genre {
-  font-size: 10px;
-  text-align: right;
-
 }
 
 /*Featured movies*/
 .txt1{
-  font-size: 13px;
   line-height: 4px;
 }
 .card{
-  border:none;
   padding-top: 26px;
 }
-.card-img-top{
+.card-img-top, .form-control{
   border-radius: 0;
 }
 .card-footer{
@@ -233,87 +248,32 @@ aside {
   background-color: inherit;
   padding-top: 12px;
 }
-.hiddenRow, .showless {
-  display: none;
-}
-.showless a:link, .showless a:visited, .showless a:hover, .showless a:active {
-  color: white;
-  text-decoration: none;
-}
 .btn-light {
   background-color: #DFDFE0;
-  color: black;
   height: 28px;
   padding-left: 15px;
   padding-right: 15px;
-  font-size: 12px;
-}
-.btn-light:hover, .btn-light:active, .btn-light:focus {
-  background-color: rgb(253, 67, 63);
-  color: white;
-  border: none;
-  outline: none;
 }
 .movies1{
   padding-bottom: 20px;
 }
-#theshowmust, .b1, .b2, .b3, .b4, .genbutton{
-  font-variant-caps: all-small-caps;
-  background-color: rgb(253, 67, 63);
-  color: white;
-  border: none;
-}
-.showbut {
-  width: 100%;
-  text-align: center;
-}
-.filmouf {
-  line-height: 13px;
-}
 
 /* Shop movies */
-
 .prix {
-  text-align: right;
   color: red;
 }
-#shopBack, #shopForward{
-  background-color: black;
-  color: grey;
-  padding: 0;
-  width: 20px;
-}
 .arrowlr{
-  text-align: right;
-  padding: 0;
-  font-size: 20px;
   z-index: 1;
 }
 .butlr {
   margin-right: 0;
 }
-.boxvideo {
-  background-color: black;
-  padding: 0;
-}
-
 #embed2{
   text-transform: uppercase;
   font-weight: normal;
   margin-top: 0 !important;
   padding-left: 12px;
-
 }
-.txtvid {
-  font-size: 12px;
-}
-.txttitle{
-  font-size: 12px;
-}
-.vidvideo{
-
-  font-size: 12px;}
-
 .shopg {
   top: -25px;
 }
@@ -324,23 +284,15 @@ aside {
    font-size: 28px;
    padding: 5px 8px;
    border: 2px solid red;
-   background: black;
  }
 
  .upstyle{
   left: auto;
  }
 
- .white, .upbutton {
-   color: white;
- }
-
 /* Contact Us */
 #contactForm{
   width: 70%;
-}
-.form-control {
-  border-radius: 0;
 }
 #message {
   margin-left: 10px;
@@ -354,17 +306,8 @@ aside {
 
 /* Footer */
 
-.footer-dark {
-  background-color: black;
-  width: 100%;
-  height: auto;
-}
-ol {
-  padding: 0;
-}
 ol li{
   list-style-type: none;
-
 }
 
 .flex-container {
@@ -377,11 +320,9 @@ hr {
 
 .footgreytxt{
   color: rgb(128, 128, 128);
-  font-size: 12px;
 }
 .subs {
   font-weight: normal;
-  font-size: 20px;
   padding-top: 5px;
   padding-bottom: 5px;
 }

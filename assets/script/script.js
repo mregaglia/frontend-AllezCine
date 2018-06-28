@@ -182,8 +182,6 @@ $(document).ready(function(){
 
   // show more or less movies on featured section
 
-  var position2 = 0;
-
   $("#theshowmust").click(function(){
     let hideshow = $(".hiddenRow").css("display");
     $(".showmore, .showless").toggle(function(){
