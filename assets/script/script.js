@@ -20,24 +20,26 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 
+var result = false;
+var age = "";
+function testnumber() {
+  let name = prompt("Indiquez votre âge : ");
+  let entree = parseInt(name, 10);
+  result = Number.isInteger(entree)
+  age = entree;
+}
+
+while(result == false) {
+  testnumber();
+}
+if (age < 18) {
+  window.location.href = 'https://www.imdb.com/';
+}
+
 // Pop-Up age
 
 $(document).ready(function(){
-  var result = false;
-  var age = "";
-  function testnumber() {
-    let name = prompt("Indiquez votre âge : ");
-    let entree = parseInt(name, 10);
-    result = Number.isInteger(entree)
-    age = entree;
-  }
 
-  while(result == false) {
-    testnumber();
-  }
-  if (age < 18) {
-    window.location.href = 'https://www.imdb.com/';
-  }
 
   //modal login and register code
 
