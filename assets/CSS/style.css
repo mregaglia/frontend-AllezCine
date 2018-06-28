@@ -174,7 +174,7 @@ aside {
  height: 35px;
  transition-delay: 1;
 }
-.shift:hover {
+.shift:active, .shift:focus {
   left: 0;
 }
 .form {
