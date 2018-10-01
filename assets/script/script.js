@@ -94,7 +94,8 @@ $(document).ready(function(){
         $("#jumbotitre" + y).html('<p>' + title + '</p>');
         $("#jumboannee" + y).html('<p>' + year + '</p>');
         $("#jumbogenre" + y).html('<p>' + genra + '</p>');
-        $(".a" + y).css("background-image", "url(" + img + ")");
+        $(".a" + y).css("background-image", "url(" + img + ")").attr("aria-label", title);
+
       }
       $(".a1, .a2, .a3, .a4, .a5, .b1, .b2, .b3, .b4").click(function(){
         let index = Number($(this).attr("class").slice(1));
@@ -187,7 +188,7 @@ $(document).ready(function(){
         let year = data[i].date;
         let price = data[i].price;
         let id = 'movieID' + i
-        let entry = '<div class="col-12 col-md-3 col-sm-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1 filmouf">' + title + '</div><br><div class="row"><div class="col txt1">' + year + '</div><div class="col txt1 prix">' + price + '</div></div></div></div></div>';
+        let entry = '<div class="col-12 col-md-3 col-sm-6 col-lg-3"><div class="card imgclick" id=' + id + '><img class="hand card-img-top imgclick2" src=' + img + ' alt=' + title + '><div class="card-footer"><div class="text-center txt1 filmouf">' + title + '</div><br><div class="row"><div class="col txt1">' + year + '</div><div class="col txt1 prix">' + price + '</div></div></div></div></div>';
         if(i % 2 === 0){
           $(entry).appendTo($('.wrapperShop1'));
         } else {

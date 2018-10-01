@@ -15,6 +15,18 @@
 #collapsibleNavbar li:not(:first-child) a, .round-like{
   background-color: rgba(0, 0, 0, 0.5);
 }
+@media only screen and (max-width: 768px){
+  #collapsibleNavbar {
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 1);
+  }
+}
+
+#demo {
+  z-index: -1;
+}
+
+
 
 #collapsibleNavbar li:not(:first-child) a, .numero, .btn-black, .shift a:link, .shift a:visited, .shift a:hover, .shift a:active, .center-height, .text-pos, .showless a:link, .showless a:visited, .showless a:hover, .showless a:active {
   color: white;
@@ -162,7 +174,7 @@ z-index: 20;
 aside {
   position:fixed;
   z-index: 900;
-  top: 200px;
+  top: 250px;
   text-align: inherit;
 }
 .shift {
@@ -202,7 +214,7 @@ aside {
 
 .text-pos {
   top: 150px;
-  z-index: 500;
+
 }
 .carousel-inner img {
   height: 100%;
@@ -295,7 +307,6 @@ aside {
   width: 70%;
 }
 #message {
-  margin-left: 10px;
   border-color: lightgrey;
   padding: 10px;
 }
@@ -331,4 +342,8 @@ hr {
 
 .modalbtn {
   bottom:10px;
+}
+
+.hand {
+  cursor: pointer;
 }
